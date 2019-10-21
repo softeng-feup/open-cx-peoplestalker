@@ -1,6 +1,6 @@
 # openCX-*PeopleStalker* Development Report
 
-Welcome to the documentation pages of the *your (PeopleStalker* of **openCX**!
+Welcome to the documentation pages of the *PeopleStalker* of **openCX**!
 
 You can find here detailed about the (sub)product, hereby mentioned as module, from a high-level vision to low-level implementation decisions, a kind of Software Development Report (see [template](https://github.com/softeng-feup/open-cx/blob/master/docs/templates/Development-Report.md)), organized by discipline (as of RUP):
 
@@ -39,9 +39,15 @@ Product that uses "IR Beam" or "Break-Beam" (Infrared rays) technology to count 
 
 
 ---
+
+
 ## Elevator Pitch
 PeopleStalker is a software product made for conference organisers and atendees, that provides insights and statistics about the attendance of a certain conference. The software displays the processed data in a simple and user friendly way, making it suitable for everyone who wishes to be part of the conference.
+
+
 ---
+
+
 ## Requirements
 
 In this section, you should describe all kinds of requirements for your module: functional and non-functional requirements.
