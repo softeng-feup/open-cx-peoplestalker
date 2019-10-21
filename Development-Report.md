@@ -21,10 +21,10 @@ You can find here detailed about the (sub)product, hereby mentioned as module, f
 * [Project management](#Project-management)
 
 
-Ana Isabel Ferreira Maia
-Luís Henrique Condado Marques
-Nuno Rodrigues De Castro Santos Silva
-Ricardo Manuel Magalhães Pinto Pereira
+* Ana Isabel Ferreira Maia
+* Luís Henrique Condado Marques
+* Nuno Rodrigues De Castro Santos Silva
+* Ricardo Manuel Magalhães Pinto Pereira
 
 ---
 
