@@ -1,4 +1,4 @@
-# openCX-*your module name* Development Report
+# openCX-*PeopleStalker* Development Report
 
 Welcome to the documentation pages of the *your (sub)product name* of **openCX**!
 
@@ -21,10 +21,10 @@ You can find here detailed about the (sub)product, hereby mentioned as module, f
 * [Project management](#Project-management)
 
 
-* Ana Isabel Ferreira Maia
-* Luís Henrique Condado Marques
-* Nuno Rodrigues De Castro Santos Silva
-* Ricardo Manuel Magalhães Pinto Pereira
+ Ana Isabel Ferreira Maia  
+ Luís Henrique Condado Marques  
+ Nuno Rodrigues De Castro Santos Silva  
+ Ricardo Manuel Magalhães Pinto Pereira  
 
 ---
 
@@ -55,18 +55,18 @@ Start by contextualizing your module, describing the main concepts, terms, roles
 
 ### User stories
 
-As an Attendee, I want to know how many people are in the room so that I know if the room is full or not;
+* As an Attendee, I want to know how many people are in the room so that I know if the room is full or not;
 
-As an Attendee, I want to know how many people entered and left the room through the presentation so that I can be informed of how interested people were in each topic;
+* As an Attendee, I want to know how many people entered and left the room through the presentation so that I can be informed of how interested people were in each topic;
 
-As an Attendee, I want to know how many people went to a certain presentation so that I can be informed of how interested people were in each presentation;
+* As an Attendee, I want to know how many people went to a certain presentation so that I can be informed of how interested people were in each presentation;
 
-As an Attendee, I want to know statistics of the attendance of Sessions so that I can be informed of how interested people were in each Session;
+* As an Attendee, I want to know statistics of the attendance of Sessions so that I can be informed of how interested people were in each Session;
 
-As an Attendee, I want to know statistics of the attendance of the presentations given by Speakers so that I can be informed of how good the Speakers were in their previous presentations;
+* As an Attendee, I want to know statistics of the attendance of the presentations given by Speakers so that I can be informed of how good the Speakers were in their previous presentations;
 
-As an Attendee, I want to know the percentage of free seats so that I know if it’ll be easy to find a free seat;
+* As an Attendee, I want to know the percentage of free seats so that I know if it’ll be easy to find a free seat;
 
-As an Admin, I want to be able to create Presentations, Sessions and Conferences, and include each within each other (Presentation < Session < Conference), so that I can create and manage my Conference as its Admin/creator.;
+* As an Admin, I want to be able to create Presentations, Sessions and Conferences, and include each within each other (Presentation < Session < Conference), so that I can create and manage my Conference as its Admin/creator.;
 
-As an Admin, I want to be able to assign the date and hour of each presentation as well as which speaker will speak, and the room information so that I can assign the hours, room and speaker for each Presentation.;
+* As an Admin, I want to be able to assign the date and hour of each presentation as well as which speaker will speak, and the room information so that I can assign the hours, room and speaker for each Presentation.;
