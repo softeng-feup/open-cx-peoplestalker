@@ -29,7 +29,8 @@ You can find here detailed about the (sub)product, hereby mentioned as module, f
 ---
 
 ## Product Vision
-Produto que utiliza tecnologia "IR Beam" ou "Break-beam" (Raios Infravermelhos) para contar o número de pessoas dentro de uma sala de conferências ao longo do tempo, de modo a criar gráficos e estatísticas que podem ser úteis para saber quais conferências têm maior adesão ou interesse.
+Product that usas "IR Beam" or "Break-Beam" (Infrared rays) technology to count the number of people inside a conference room over time to create graphs and statistics that can be useful in knowing which conferences have greater adhesion or interest.
+
 
 
 ---
