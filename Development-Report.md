@@ -51,7 +51,7 @@ Start by contextualizing your module, describing the main concepts, terms, roles
 ### Use case diagram
 
 
-![alt text](https://github.com/softeng-feup/open-cx-peoplestalker/use_cases.jpg)
+![Use Case](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/use_cases.JPG)
 
 ### User stories
 
