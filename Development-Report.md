@@ -1,6 +1,6 @@
 # openCX-*PeopleStalker* Development Report
 
-Welcome to the documentation pages of the *your (sub)product name* of **openCX**!
+Welcome to the documentation pages of the *your (PeopleStalker* of **openCX**!
 
 You can find here detailed about the (sub)product, hereby mentioned as module, from a high-level vision to low-level implementation decisions, a kind of Software Development Report (see [template](https://github.com/softeng-feup/open-cx/blob/master/docs/templates/Development-Report.md)), organized by discipline (as of RUP):
 
@@ -20,6 +20,12 @@ You can find here detailed about the (sub)product, hereby mentioned as module, f
 * [Configuration and change management](#Configuration-and-change-management)
 * [Project management](#Project-management)
 
+So far, contributions are exclusively made by the initial team, but we hope to open them to the community, in all areas and topics: requirements, technologies, development, experimentation, testing, etc.
+
+Please contact us!
+
+Thank you!
+
 
  Ana Isabel Ferreira Maia  
  Luís Henrique Condado Marques  
@@ -29,19 +35,12 @@ You can find here detailed about the (sub)product, hereby mentioned as module, f
 ---
 
 ## Product Vision
-Product that usas "IR Beam" or "Break-Beam" (Infrared rays) technology to count the number of people inside a conference room over time to create graphs and statistics that can be useful in knowing which conferences have greater adhesion or interest.
-
+Product that uses "IR Beam" or "Break-Beam" (Infrared rays) technology to count the number of people inside a conference room over time to create graphs and statistics that can be useful in knowing which conferences have greater adhesion or interest.
 
 
 ---
 ## Elevator Pitch
-Draft a small text to help you quickly introduce and describe your product in a short time and a few words, a technique usually known as elevator pitch.
-
-Take a look at the following links to learn some techniques:
-* [Crafting an Elevator Pitch](https://www.mindtools.com/pages/article/elevator-pitch.htm)
-* [The Best Elevator Pitch Examples, Templates, and Tactics - A Guide to Writing an Unforgettable Elevator Speech, by strategypeak.com](https://strategypeak.com/elevator-pitch-examples/)
-* [Top 7 Killer Elevator Pitch Examples, by toggl.com](https://blog.toggl.com/elevator-pitch-examples/)
-
+PeopleStalker is a software product made for conference organisers and atendees, that provides insights and statistics about the attendance of a certain conference. The software displays the processed data in a simple and user friendly way, making it suitable for everyone who wishes to be part of the conference.
 ---
 ## Requirements
 
@@ -50,7 +49,6 @@ In this section, you should describe all kinds of requirements for your module: 
 Start by contextualizing your module, describing the main concepts, terms, roles, scope and boundaries of the application domain addressed by the project.
 
 ### Use case diagram
-
 
 ![Use Case](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/use_cases.JPG)
 
