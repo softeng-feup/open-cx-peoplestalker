@@ -76,6 +76,6 @@ Start by contextualizing your module, describing the main concepts, terms, roles
 
 * As an Admin, I want to be able to assign the date and hour of each presentation as well as which speaker will speak, and the room information so that I can assign the hours, room and speaker for each Presentation.;
 
-###Domain model
+### Domain model
 
-https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/domain_analysis.png
+![Domain Model UML](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/domain_analysis.png)
