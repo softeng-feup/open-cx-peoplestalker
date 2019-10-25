@@ -75,3 +75,7 @@ Start by contextualizing your module, describing the main concepts, terms, roles
 * As an Admin, I want to be able to create Presentations, Sessions and Conferences, and include each within each other (Presentation < Session < Conference), so that I can create and manage my Conference as its Admin/creator.;
 
 * As an Admin, I want to be able to assign the date and hour of each presentation as well as which speaker will speak, and the room information so that I can assign the hours, room and speaker for each Presentation.;
+
+###Domain model
+
+![Use Case](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/domain_analysis.JPG)
