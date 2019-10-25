@@ -78,4 +78,4 @@ Start by contextualizing your module, describing the main concepts, terms, roles
 
 ###Domain model
 
-![Use Case](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/domain_analysis.JPG)
+https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/domain_analysis.png
