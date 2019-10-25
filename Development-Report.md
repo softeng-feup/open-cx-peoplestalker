@@ -79,3 +79,14 @@ Start by contextualizing your module, describing the main concepts, terms, roles
 ### Domain model
 
 ![Domain Model UML](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/domain_analysis.png)
+
+
+## Architecture and Design
+
+### Prototype
+(describe in more detail which, and how, user(s) story(ies) were implemented.)
+
+
+## Implementation
+
+ (Explain a few aspects of the code that have the greatest potential to confuse software engineers about how it works.)
