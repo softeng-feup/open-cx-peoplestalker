@@ -27,8 +27,8 @@ Please contact us!
 Thank you!
 
 
- Ana Isabel Ferreira Maia  
- Luís Henrique Condado Marques  
+ Ana Isabel Ferreira Maia
+ Luís Henrique Condado Marques
  Nuno Rodrigues De Castro Santos Silva  
  Ricardo Manuel Magalhães Pinto Pereira  
 
