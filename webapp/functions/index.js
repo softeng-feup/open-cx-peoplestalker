@@ -4,7 +4,7 @@ const firebase = require("firebase");
 require("firebase/functions");
 
  exports.helloWorld = functions.https.onRequest((request, response) => {
-   
+
 const config = {
   apiKey: "AIzaSyDuu7q2LruWRsVPBBTCj29MbBkA7fOByKM",
   authDomain: "peoplestalker-318b4.firebaseapp.com",
@@ -24,7 +24,5 @@ var database = firebase.database();
  // Create and Deploy Your First Cloud Functions
  // https://firebase.google.com/docs/functions/write-firebase-functions
 const dbRefObject =firebase.database().ref('sensor/dht/-LvQI5oSFFVxAGnFwiOP/pin2').child('object');
-
-
    dbRefObject.on('value',snap=> console.log(snap.val()));
    });
