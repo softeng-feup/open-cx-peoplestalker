@@ -1,8 +1,30 @@
 const functions = require('firebase-functions');
-
- // Create and Deploy Your First Cloud Functions
- // https://firebase.google.com/docs/functions/write-firebase-functions
+const firebase = require("firebase");
+// Required for side-effects
+require("firebase/functions");
 
  exports.helloWorld = functions.https.onRequest((request, response) => {
-  response.send("Hello from Firebase!");
- });
+   
+const config = {
+  apiKey: "AIzaSyDuu7q2LruWRsVPBBTCj29MbBkA7fOByKM",
+  authDomain: "peoplestalker-318b4.firebaseapp.com",
+  databaseURL: "https://peoplestalker-318b4.firebaseio.com",
+  projectId: "peoplestalker-318b4",
+  storageBucket: "peoplestalker-318b4.appspot.com",
+  messagingSenderId: "346776065341",
+  appId: "1:346776065341:web:639f59762de831a832a154",
+  measurementId: "G-P8V0BXSPEL"
+};
+
+firebase.initializeApp(config);
+
+var rootRef = firebase.database().ref();
+
+var database = firebase.database();
+ // Create and Deploy Your First Cloud Functions
+ // https://firebase.google.com/docs/functions/write-firebase-functions
+const dbRefObject =firebase.database().ref('sensor/dht/-LvQI5oSFFVxAGnFwiOP/pin2').child('object');
+
+
+   dbRefObject.on('value',snap=> console.log(snap.val()));
+   });
