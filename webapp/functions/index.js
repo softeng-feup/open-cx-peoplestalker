@@ -23,8 +23,6 @@ var rootRef = firebase.database().ref();
 var database = firebase.database();
 
  exports.helloWorld = functions.https.onRequest((request, response) => {
- // Create and Deploy Your First Cloud Functions
- // https://firebase.google.com/docs/functions/write-firebase-functions
-const dbRefObject =firebase.database().ref('sensor/dht/-LvQI5oSFFVxAGnFwiOP');
-   dbRefObject.on('value',snap=> response.send(snap.val()));
+   const dbRefObject =firebase.database().ref('sensor/dht/');
+   dbRefObject.limitToLast(1).on('value',snap=> response.send(snap.val()));
    });
