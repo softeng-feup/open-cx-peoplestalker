@@ -26,3 +26,12 @@ var database = firebase.database();
    const dbRefObject =firebase.database().ref('sensor/dht/');
    dbRefObject.limitToLast(1).on('value',snap=> response.send(snap.val()));
    });
+
+   exports.helloWorld2 = functions.https.onRequest((request, response) => {
+     const dbRefObject =firebase.database().ref('sensor/dht');
+     dbRefObject.on('value', function(snapshot){
+       snapshot.forEach(function(childSnapshot){
+        response.send(childSnapshot.val());
+      });
+    });
+   });
