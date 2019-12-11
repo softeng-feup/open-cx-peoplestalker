@@ -44,12 +44,22 @@ var database = firebase.database();
 
     dbRefObject.on('value', function(snapshot){
       let dataValues = snapshot.exportVal();
-      for(var prop in dataValues)
-      {
-        if(Object.prototype.hasOwnProperty.call(dataValues, prop))
-        {
-          response.send(dataValues[prop]);
+      let arrayValues = [];
+      for (var prop in dataValues) {
+        if (Object.prototype.hasOwnProperty.call(dataValues, prop)) {
+          arrayValues.push(dataValues[prop]);
         }
       }
+      for(var i = 0; i<arrayValues.length ;  i++)
+      {
+        if(arrayValues[i].counterIn !== null)
+        {
+          if(arrayValues[i].counterIn > max)
+          {
+            max = arrayValues[i].counterIn;
+          }
+        }
+      }
+      response.send('<p>' + max + '</p>');
     });
    });
