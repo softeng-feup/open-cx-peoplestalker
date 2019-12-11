@@ -25,27 +25,30 @@ counterIN=0
 counterOUT=0
 ENTERING = 0
 EXITING = 0
+nbrOfPeopleInRoomBefore = 0
+nbrOfPeopleInRoom = 0
+entrance = 0
 
 #firebase usage:
 firebase = firebase.FirebaseApplication('https://peoplestalker-318b4.firebaseio.com/', None)
 #firebase.put("/dht", "/temp", "0.00")
 #firebase.put("/dht", "/humidity", "0.00")
 
-def update_firebase():
-	data = {"counterIn": counterIN, "counterOut": counterOUT,"time":datetime.datetime.now()}
-	#data = {"temp": temperature, "humidity": humidity}
-	print('posting')
+def update_firebase(nbrOfPeopleInRoomBefore):
+	nbrOfPeopleInRoom = counterIN - counterOUT
+	if nbrOfPeopleInRoom > nbrOfPeopleInRoomBefore:
+		entrance = 1
+	else:
+		entrance = 0
+	data = {"PeopleInRoom": nbrOfPeopleInRoom,"Entrance": entrance, "DateTime": datetime.datetime.now()}
+	#data = {"PeopleInRoom": nbrOfPeopleInRoom,"DateTime": datetime.datetime.now()}
+	print('Posting, number of people in room:')
+	print(nbrOfPeopleInRoom)
 	firebase.post('/sensor/dht', data)
+	nbrOfPeopleInRoomBefore = nbrOfPeopleInRoom
 	
 
 while True:
-	#print('this:')
-	#print(datetime.datetime.now())
-	#print(GPIO.input(pin2))
-	#print(GPIO.input(pin3))
-	
-	#update_firebase()
-
 	if state == 0: # no sensors broken, start state machine
 		if GPIO.input(pin2) and GPIO.input(pin3) == 0 :
 			state = 1
@@ -78,14 +81,12 @@ while True:
 			ENTERING = 0
 			EXITING = 0
 			state = 0
-			update_firebase()
+			update_firebase(nbrOfPeopleInRoomBefore)
 		if GPIO.input(pin2) == 0 and GPIO.input(pin3) == 0 and ENTERING :
 			counterIN += 1
 			ENTERING = 0
 			EXITING = 0
 			state = 0
-			update_firebase()
-
-
+			update_firebase(nbrOfPeopleInRoomBefore)
 
 GPIO.cleanup()
