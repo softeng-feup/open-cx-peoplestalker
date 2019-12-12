@@ -68,11 +68,43 @@ Trello - https://trello.com/b/UpNIOA4Q/esof-people-stalker
 
 
 ## Architecture and Design
+### Logical architecture
+TODO-perguntar stor
+### Physical architecture
+TODO-perguntar stor
 
 ### Prototype
-(describe in more detail which, and how, user(s) story(ies) were implemented.)
+In this section we will briefly describe the iterations and user stories associated with them throughout out project.
+Among our user stories are : 
+-Knowing the ammount of people in a presentation at the current moment, we implemented this by getting the last inserted data in our realtime database in firebase, then checking the ammount of people in the room at that moment.
+-Maximum people in the room in a given presentation
+-Percentage of seats at the current moment, given the first user storie in this list, and knowing the ammount of seats available (which is inserted by the Admin of the Presentation), calculate the percentage of people in that given moment
+-Know the ammount of people that were present in the presentation throughout it, by getting the hour and ammount of people in a given presentation and then displaying it in a graph (TODO)
+TODO - falta as outras e implementa-las
 
 
 ## Implementation
+Our project is being implemented using Raspberry Pi and a sensor in a doorway, that then sends information to a firebase realtime database. 
+The section below will describe each iteration in the process of developing our project:
+Iteration 1: In this iteration we dedicated our time to acquire the desired sensors and discover how they worked with the Raspberry Pi. At the same time, we started to better define the objectives of our project. 
+Iteration 2: Started developing the code in C we would use to then count the ammount of people in a room and send that information, along with the time and date, to our desired database.
+Iteration 3: Choose the desired database to use, it being Firebase. Put our code developed in iteration 2 in Python so that it can then transfer the information from the sensors and Raspberry Pi to Firebase.
+Iteration 4: Development of the web page created to display the statistics we would calculate using the above information. Completed some of the basic user stories.
+ 
 
- (Explain a few aspects of the code that have the greatest potential to confuse software engineers about how it works.)
+## Test
+//Temos de fazer aceeptance Test, nada feito por enquanto
+
+## Configuration and change management
+Configuration and change management are key activities to control change to, and maintain the integrity of, a project’s artifacts (code, models, documents).
+
+For the purpose of ESOF, we will use a very simple approach, just to manage feature requests, bug fixes, and improvements, using GitHub issues and following the GitHub flow.
+
+
+
+## Project management
+For managing our project we chose to use Trello, divided in three categories:
+-To do : User Stories that have not been implemented
+-Doing : User Stories being implemented at the moment by different group members
+-Done : User Stories completed
+
