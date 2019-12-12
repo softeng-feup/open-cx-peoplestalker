@@ -70,6 +70,7 @@ Trello - https://trello.com/b/UpNIOA4Q/esof-people-stalker
 ## Architecture and Design
 ### Logical architecture
 TODO-perguntar stor
+![Logical_architecture](https://gyazo.com/bf31b4a621fe01220b4a78d297edce8d)
 ### Physical architecture
 
 On a hardware point of view, our product is simple. We have a Raspberry Pi 3, a breaboard, and 2 Sharp 2Y0A02 distant measuring sensors.
