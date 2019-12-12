@@ -71,7 +71,7 @@ Trello - https://trello.com/b/UpNIOA4Q/esof-people-stalker
 ### Logical architecture
 TODO-perguntar stor
 ### Physical architecture
-TODO-perguntar stor
+![Physical architecture](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/physical_architecture.png)
 
 ### Prototype
 In this section we will briefly describe the iterations and user stories associated with them throughout out project.
