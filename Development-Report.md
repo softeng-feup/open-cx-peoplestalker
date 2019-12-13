@@ -38,12 +38,16 @@ Thank you!
 Product that uses "IR Beam" or "Break-Beam" (Infrared rays) technology to count the number of people inside a conference room over time to create graphs and statistics that can be useful in knowing which conferences have greater adhesion or interest.
 
 
+## todo: ser mais claro 
+
+
 ---
 
 
 ## Elevator Pitch
 PeopleStalker is a software product made for conference organisers and atendees, that provides insights and statistics about the attendance of a certain conference. The software displays the processed data in a simple and user friendly way, making it suitable for everyone who wishes to be part of the conference.
 
+TODO: esclarecer melhor os selling points do produto
 
 ---
 
@@ -58,6 +62,8 @@ Start by contextualizing your module, describing the main concepts, terms, roles
 
 ![Use Case](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/use_cases.jpg)
 
+TODO: descrever utilizadores, o que cada um representa, descrever cada use case (peqeno indice com cada
+alterar herança das classes, mudar pa include/Extends(?)
 ### User stories
 
 Trello - https://trello.com/b/UpNIOA4Q/esof-people-stalker
@@ -70,8 +76,20 @@ Trello - https://trello.com/b/UpNIOA4Q/esof-people-stalker
 ## Architecture and Design
 ### Logical architecture
 TODO-perguntar stor
+![Logical_architecture](https://i.gyazo.com/bf31b4a621fe01220b4a78d297edce8d.png)
+
+TODO: Ordenar codigo em packages, ver melhor arquitectura logica 
+
+
 ### Physical architecture
-TODO-perguntar stor
+
+On a hardware point of view, our product is simple. We have a Raspberry Pi 3, a breaboard, and 2 Sharp 2Y0A02 distant measuring sensors.
+The PI gives power to the breadboard, to which the sensors are connected, and they give their output back. Using the Raspberry Pi 3's functionalities and I/O pin's, we read these inputs and process them via a state machine programmed in Python that we coded.
+Using a special Firebase library, the program updates our Firebase database everytime someone crosses the sensor.
+With the PI's WI-FI connectability, it is connected to the internet, either via FEUP's internet, or using a mobile router. 
+![Physical architecture](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/physical_architecture.png)
+
+TODO: usar UML deployment diagrams, refazer uml COMO UM UML
 
 ### Prototype
 In this section we will briefly describe the iterations and user stories associated with them throughout out project.
