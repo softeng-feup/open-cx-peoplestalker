@@ -1,3 +1,14 @@
+// test function
+const testForm = document.querySelector('.test-actions');
+testForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    //const adminEmail = document.querySelector('#admin-email').value;
+    const ammountPeople = functions.httpsCallable('ammountPeople');
+    ammountPeople().then(result => {
+        console.log(result);
+    });
+});
+
 // add admin cloud function
 const adminForm = document.querySelector('.admin-actions');
 adminForm.addEventListener('submit', (e) => {
