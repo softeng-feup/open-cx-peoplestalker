@@ -1,8 +1,29 @@
 const functions = require('firebase-functions');
-const firebase = require("firebase");
-// Required for side-effects
+const admin = require('firebase-admin');
+admin.initializeApp();
 
 
+
+
+
+exports.addAdminRole = functions.https.onCall((data, context) => {
+  // check if request was made by an admin
+  if (context.auth.token.admin !== true) {
+      return {error: 'only admins can add other admins'}
+  }
+  // get user and add custom claim (admin)
+  return admin.auth().getUserByEmail(data.email).then(user => {
+      return admin.auth().setCustomUserClaims(user.uid, {
+          admin: true
+      });
+  }).then(() => {
+      return {
+          message : `Success! ${data.email} has been made an admin`
+      }
+  }).catch(err => {
+      return err;
+  });
+});
 
 
 
@@ -50,16 +71,3 @@ const firebase = require("firebase");
 
  
 
-   
-const config = {
-  apiKey: "AIzaSyDuu7q2LruWRsVPBBTCj29MbBkA7fOByKM",
-  authDomain: "peoplestalker-318b4.firebaseapp.com",
-  databaseURL: "https://peoplestalker-318b4.firebaseio.com",
-  projectId: "peoplestalker-318b4",
-  storageBucket: "peoplestalker-318b4.appspot.com",
-  messagingSenderId: "346776065341",
-  appId: "1:346776065341:web:639f59762de831a832a154",
-  measurementId: "G-P8V0BXSPEL"
-};
-
-firebase.initializeApp(config);
