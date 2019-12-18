@@ -11,6 +11,10 @@
             margin-top: 0px;
         }
     </style>
+    <!-- Step 1 - Include the fusioncharts core library -->
+    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
+    <!-- Step 2 - Include the fusion theme -->
+    <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
 </head>
 <body class ="grey lighten-3">
         
@@ -42,13 +46,14 @@
 </nav>
 
 <hr>
-<div id = "test" class = "center-align">
-
-</div>
-<div id = "max" class = "center-align">
-
-</div>
+<div id = "test" class = "center-align"></div>
+<div id = "max" class = "center-align"></div>
 <hr>
+
+<span id="chart-container"></span>
+<span id="chart-container1"></span>
+<span id="chart-container2"></span>
+<span id="chart-container3"></span>
 
 <!-- TEST FUNCTION 
 <form class = "center-align test-actions test" style = "margin: 40px auto; max-width: 300px; display: block;">
@@ -175,6 +180,10 @@ firebase.initializeApp(config);
 <script src = "scripts/auth.js"></script>
 <script src = "scripts/index.js"></script>
 <script src = "scripts/database.js"></script>
+<script src = "scripts/testchart.js"></script>
+<script src = "scripts/testchart1.js"></script>
+<script src = "scripts/testchart2.js"></script>
+<script src = "scripts/testchart3.js"></script>
 
 </body>
 </html>
