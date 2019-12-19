@@ -70,7 +70,7 @@ With PeopleStalker, you will know.
 
 ### Use case diagram	
 
-![Use Case](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/use_cases.jpg)	
+![Use Case](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/UseCases.jpg)	
 
 TODO: descrever utilizadores, o que cada um representa, descrever cada use case (peqeno indice com cada	
 alterar herança das classes, mudar pa include/Extends(?)	
