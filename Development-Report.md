@@ -73,12 +73,10 @@ With PeopleStalker, you will know.
 ![Use Case](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/uc.jpg)	
 
 The Speaker is the person who is presenting the presentation, the Attendee is someone who is watching a presentation and the ConfAdmin is the administrator of the conference, the one who will define the sessions and what presentations will be given and at what time.
-The use cases presented in the UML are divided into two categories, the ones who will be available to everyone and the ones only available to the Administrator of the conference. The firt type include the Visualization of the number of attendees over time, the percentage of free seats in the given presentation, the number of attendees present live in the presentation, and some other statistics of the speaker and the sessions, as in, information about the the
+The use cases presented in the UML are divided into two categories, the ones who will be available to everyone and the ones only available to the Administrator of the conference. The firt type include the visualization of the number of attendees over time, the percentage of free seats in the given presentation, the number of attendees present live in the presentation, and the maximum ammount of people present until the current time, and some other statistics of the speaker and the sessions, as in, all the 
+information described but about other presentation done by the speaker before and that same session done in the past.
+The other type of use cases (the ones only available to the administrator), are related to the creation of a conference, once the administrator logs in, only he can create a new conference, which then he can add sessions and presentations within each session. For each presentation he has to specify the room in which it will be presented, the assigned speaker for the presentation and the hours it will take place in.
 
-
-
-TODO: descrever utilizadores, o que cada um representa, descrever cada use case (peqeno indice com cada	
-alterar herança das classes, mudar pa include/Extends(?)	
 ### User stories	
 
 Trello - https://trello.com/b/UpNIOA4Q/esof-people-stalker	
@@ -100,8 +98,7 @@ TODO: Ordenar codigo em packages, ver melhor arquitectura logica
 
 On a hardware point of view, our product is simple. We have a Raspberry Pi 3, a breaboard, and 2 Sharp 2Y0A02 distant measuring sensors.	
 The PI gives power to the breadboard, to which the sensors are connected, and they give their output back. Using the Raspberry Pi 3's functionalities and I/O pin's, we read these inputs and process them via a state machine programmed in Python that we coded.	
-Using a special Firebase library, the program updates our Firebase database everytime someone crosses the sensor.
-Our WebApp gets its inputs from the Firebase Library and displays the data relative to the presentations on the website.
+Using a special Firebase library, the program updates our Firebase database everytime someone crosses the sensor.	
 With the PI's WI-FI connectability, it is connected to the internet, either via FEUP's internet, or using a mobile router. 	
 ![Physical architecture](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/physical_architecture.png)	
 
