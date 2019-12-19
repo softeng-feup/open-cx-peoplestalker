@@ -47,6 +47,7 @@ const setupPresentations = (data) => {
                       <p>Date: ${presentation.date}</p>
                       <p>Start Time: ${presentation.startingtime}</p>
                       <p>End Time: ${presentation.endtime}</p>
+
                     </div>
 
                 </li>
