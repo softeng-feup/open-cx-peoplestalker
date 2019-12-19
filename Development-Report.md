@@ -46,9 +46,18 @@ PeopleStalker, revolutionizing conference statistics for a fluid and concise dat
 
 
 ## Elevator Pitch	
-PeopleStalker is a software product made for conference organisers and atendees, that provides insights and statistics about the attendance of a certain conference. The software displays the processed data in a simple and user friendly way, making it suitable for everyone who wishes to be part of the conference.	
+While it easy to get information regarding how many people attended a conference, or, paid for a ticket, one might be interested in knowing exactly how many people attended each presentation within a conference, the maximum number of people inside the presentation, or just knowing if the room is full or not, as an attendee looking for a seat.
 
-TODO: esclarecer melhor os selling points do produto	
+As a solution to this, we have envisioned and developed PeopleStalker! With an easy to set-up and use product, and a simple and concise WebApp, we allow conference managers to deploy a new tool to monitor and get new data never obtained before in conferences.
+
+Using our product, one can get information regarding the percentage of seats taken, which can be helpful as an attendee looking to enter a presentation, the maximum number of people that were at one point in a presentation, and the graph of people attending the presentation throughout time.
+
+Via our WebApp, the conference manager can configure the product to set the times a Presentation starts and ends and will afterwards get the data for each presentation. The conference manager can also choose to show this information to the public.
+
+How did your previous conferences go? Which presentations were the most interesting for the public and which speakers kept the most people keen on attending their lectures?
+
+With PeopleStalker, you will know.
+
 
 ---	
 
