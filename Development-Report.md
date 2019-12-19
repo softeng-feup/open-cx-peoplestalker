@@ -98,7 +98,8 @@ TODO: Ordenar codigo em packages, ver melhor arquitectura logica
 
 On a hardware point of view, our product is simple. We have a Raspberry Pi 3, a breaboard, and 2 Sharp 2Y0A02 distant measuring sensors.	
 The PI gives power to the breadboard, to which the sensors are connected, and they give their output back. Using the Raspberry Pi 3's functionalities and I/O pin's, we read these inputs and process them via a state machine programmed in Python that we coded.	
-Using a special Firebase library, the program updates our Firebase database everytime someone crosses the sensor.	
+Using a special Firebase library, the program updates our Firebase database everytime someone crosses the sensor.
+Our WebApp gets its inputs from the Firebase Library and displays the data relative to the presentations on the website.
 With the PI's WI-FI connectability, it is connected to the internet, either via FEUP's internet, or using a mobile router. 	
 ![Physical architecture](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/physical_architecture.png)	
 
