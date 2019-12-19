@@ -6,8 +6,10 @@ adminForm.addEventListener('submit', (e) => {
     var adminEmail = document.querySelector('#admin-email').value;
     const addAdminRole = functions.httpsCallable('addAdminRole');
     addAdminRole({email: adminEmail}).then(result => {
-        console.log(result);
+        //console.log(result);
         adminForm.reset();
+        console.log(result.data.message);
+        adminForm.querySelector("#admin-email").placeholder = result.data.message;
         adminEmail = '';
     });
 });
