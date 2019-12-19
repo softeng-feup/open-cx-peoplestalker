@@ -1,3 +1,7 @@
+#!/usr/bin/python
+import os
+import time
+import urllib2 
 
 import RPi.GPIO as GPIO
 from time import sleep
@@ -31,20 +35,28 @@ nbrOfPeopleInRoom = 0
 
 #firebase usage:
 firebase = firebase.FirebaseApplication('https://peoplestalker-318b4.firebaseio.com/', None)
-#firebase.put("/dht", "/temp", "0.00")
-#firebase.put("/dht", "/humidity", "0.00")
 
-def update_firebase(nbrOfPeopleInRoomBefore,entrance):
+
+def update_firebase(entrance):
 	nbrOfPeopleInRoom = counterIN - counterOUT
 	data = {"PeopleInRoom": nbrOfPeopleInRoom,"Entrance": entrance, "DateTime": datetime.datetime.now()}
-	#data = {"PeopleInRoom": nbrOfPeopleInRoom,"DateTime": datetime.datetime.now()}
 	print('Posting, number of people in room:')
 	print(nbrOfPeopleInRoom)
 	print('Entrance:')
 	print(entrance)
-	firebase.post('/sensor/dht', data)
-	nbrOfPeopleInRoomBefore = nbrOfPeopleInRoom
-	
+	#upload status only if connected to the internet
+	while True:
+		try:
+			urllib2.urlopen("http://www.google.com").close()
+		except urllib2.URLError:
+			print "Not Connected"
+			time.sleep(1)
+		else:
+			print "Connected"
+			#firebase.post('/sensor/dht', data)
+			nbrOfPeopleInRoomBefore = nbrOfPeopleInRoom
+			break
+		
 
 while True:
 	if state == 0: # no sensors broken, start state machine
@@ -79,12 +91,17 @@ while True:
 			ENTERING = 0
 			EXITING = 0
 			state = 0
-			update_firebase(nbrOfPeopleInRoomBefore,0)
+			if 0 > counterIN - counterOUT:
+				counterIN = 0
+				counterOUT = 0
+				print('NEGATIVE NUMBER OF PEOPLE')
+			else:
+				update_firebase(0)
 		if GPIO.input(pin2) == 0 and GPIO.input(pin3) == 0 and ENTERING :
 			counterIN += 1
 			ENTERING = 0
 			EXITING = 0
 			state = 0
-			update_firebase(nbrOfPeopleInRoomBefore,1)
+			update_firebase(1)
 
 GPIO.cleanup()
