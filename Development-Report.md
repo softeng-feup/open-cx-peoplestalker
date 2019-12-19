@@ -67,9 +67,6 @@ With PeopleStalker, you will know.
 
 ## Requirements	
 
-In this section, you should describe all kinds of requirements for your module: functional and non-functional requirements.	
-
-Start by contextualizing your module, describing the main concepts, terms, roles, scope and boundaries of the application domain addressed by the project.	
 
 ### Use case diagram	
 
