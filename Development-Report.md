@@ -98,9 +98,9 @@ The PI gives power to the breadboard, to which the sensors are connected, and th
 Using a special Firebase library, the program updates our Firebase database everytime someone crosses the sensor.
 Our WebApp gets its inputs from the Firebase Library and displays the data relative to the presentations on the website.
 With the PI's WI-FI connectability, it is connected to the internet, either via FEUP's internet, or using a mobile router. 	
-![Physical architecture](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/physical_architecture.png)	
+![Physical architecture](https://raw.githubusercontent.com/softeng-feup/open-cx-peoplestalker/master/physical_architecture.png)	
 
-TODO: usar UML deployment diagrams, refazer uml COMO UM UML	
+	
 
 ### Prototype	
 In this section we will briefly describe the iterations and user stories associated with them throughout out project.	
