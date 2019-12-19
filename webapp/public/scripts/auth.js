@@ -43,7 +43,11 @@ createForm.addEventListener('submit', (e) => {
     e.preventDefault();
     db.collection('presentations').add({
         title: createForm['title'].value,
-        content: createForm['content'].value
+        content: createForm['content'].value,
+        date: createForm['date'].value,
+        startingtime: createForm['startingtime'].value,
+        endtime: createForm['endtime'].value,
+
     }).then(() => {
         //close modal and reset form
         const modal = document.querySelector('#modal-create');
