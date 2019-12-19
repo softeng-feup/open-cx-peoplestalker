@@ -72,6 +72,11 @@ With PeopleStalker, you will know.
 
 ![Use Case](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/UseCases.jpg)	
 
+The Speaker is the person who is presenting the presentation, the Attendee is someone who is watching a presentation and the ConfAdmin is the administrator of the conference, the one who will define the sessions and what presentations will be given and at what time.
+The use cases presented in the UML are divided into two categories, the ones who will be available to everyone and the ones only available to the Administrator of the conference. The firt type include the Visualization of the number of attendees over time, the percentage of free seats in the given presentation, the number of attendees present live in the presentation, and some other statistics of the speaker and the sessions, as in, information about the the
+
+
+
 TODO: descrever utilizadores, o que cada um representa, descrever cada use case (peqeno indice com cada	
 alterar herança das classes, mudar pa include/Extends(?)	
 ### User stories	
