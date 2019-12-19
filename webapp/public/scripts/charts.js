@@ -1,44 +1,75 @@
-
-FusionCharts.ready(function(id){
-    var fusioncharts = new FusionCharts({
-        type: 'zoomline',
-        renderAt: `chart-container${id}`,
-        width: '700',
-        height: '400',
-        dataFormat: 'json',
-        dataSource: {
-            // Chart Configuration
-            "chart": {
-                "caption": "Presentation Atendees",
-                "subcaption": "AI",
-                "yaxisname": "Atendees",
-                "xaxisname": "Time",
-                "yaxisminValue": "0",
-                "yaxismaxValue": "250",
-                "pixelsPerPoint": "0",
-                "pixelsPerLabel": "30",
-                "lineThickness": "1",
-                "compactdatamode": "1",
-                "dataseparator": "|",
-                "labelHeight": "30",
-                "scrollheight": "10",
-                "flatScrollBars": "1",
-                "scrollShowButtons": "0",
-                "scrollColor": "#cccccc",
-                "theme": "fusion"
-            },
-            "categories": [
-                {
-                    "category": "09:00|09:05|09:10|09:15|09:20|09:25|09:30|09:35|09:40|09:45|09:50|09:55|10:00|10:05|10:10|10:15|10:20|10:25|10:30|10:35|10:40|10:45|10:50|10:55|11:00|11:00|11:05|11:10|11:15|11:20|11:25|11:30|11:35|11:40|11:45|11:50|11:55|12:00"
-                }
-            ],
-            "dataset": [
-                {
-                    "seriesname": "harrysfoodmart.com",
-                    "data": "97|96|95|98|99|96|97|94|98|96|97|95|98|95|98|96|99|98|96|98|96|94|97|98|94|91|94|95|97|94|95|98|94|96|93|94|96|97|96|97|93|95|96|97|93|96|95|97|99|90|94|92|94|98|99|98|96|95|100|96|95|97|99|97|99|98|96|95|101|99|107|98|98|112|99|98|104|98|96|98|99|98|99|98|118|99|97|99|122|99|102|98|115|106|105|103|117|114|99|107|101|119|112|105|127|111|113|135|110|111|111|136|141|105|105|99|112|132|125|120|99|118|100|109|105|104|142|147|121|132|119|138|150|137|119|118|135|155|128|149|113|128|123|154|141|151|169|151|172|149|154|135|172|142|148|183|154|148|165|146|155|156|185|146|148|148|168|189|174|178|146|152|182|152|167|158|151|152|182|160|176|177|159|170|182|193|110|189|179|175|187|189|188|116|117|167|176|111|194|178|197|194|183|166|179|111|110|185|191|195|181|191|177|195|117|183|116|118|111|111|196|177|186|117|187|115|117|194|112|111|184|194|125|199|118|184|199|112|122|192|120|121|194|114|199|129|195|125|127|121|129|111|197|136|111|198|131|125|144|114|117|115|115|145|112|143|115|147|149|129|118|119|113|153|121|127|133|112|155|112|147|118|117|145|152|145|113|157|135|115|156|163|131|123|137|151|116|152|166|144|137|124|151|129|133|143|139|171|135|132|174|117|163|175|152|142|116|148|173|158|116|151|142|168|153|143|157|142|172|186|176|185|175|178|184|166|148|166|186|187|180|179|161|174|155|172|173|179|149|170|175|162|151|152|163|155|197|174|199|180|160|174|159|168|160"
-                },
-            ]
-        }
+window.addEventListener("load", getData(genFunction));
+function getData(callbackIN) {
+  var ref = firebase.database().ref("sensor/dht/");
+  ref.once('value').then(function (snapshot) {
+    callbackIN(snapshot.val())
+  });
+}
+function genFunction(data) {
+  var arrData = [];
+  for (var prop in data) {
+    if (Object.prototype.hasOwnProperty.call(data, prop)) {
+      arrData.push(data[prop]);
+    }
+}
+  var cdata = [];
+  var len = arrData.length;
+  for(var i=1; i<len; i++) {
+    cdata.push({
+      label: arrData[i]['DataTime'],
+      value: arrData[i]['PeopleInRoom']
     });
-    fusioncharts.render();
+  }
+var firebaseChart = new FusionCharts({
+    type: 'area2d',
+    renderAt: 'chart-container',
+    width: '650',
+    height: '400',
+    dataFormat: 'json',
+    dataSource: {
+        "chart": {
+            "caption": "Website Visitors Trend",
+            "subCaption": "Last 7 Days{br}ACME Inc.",
+            "subCaptionFontBold": "0",
+            "captionFontSize": "20",
+            "subCaptionFontSize": "17",
+            "captionPadding": "15",
+            "captionFontColor": "#8C8C8C",
+            "baseFontSize": "14",
+            "baseFont": "Barlow",
+            "canvasBgAlpha": "0",
+            "bgColor": "#FFFFFF",
+            "bgAlpha": "100",
+            "showBorder": "0",
+            "showCanvasBorder": "0",
+            "showPlotBorder": "0",
+            "showAlternateHGridColor": "0",
+            "usePlotGradientColor": "0",
+            "paletteColors": "#6AC1A5",
+            "showValues": "0",
+            "divLineAlpha": "5",
+            "showAxisLines": "1",
+            "drawAnchors": "0",
+            "xAxisLineColor": "#8C8C8C",
+            "xAxisLineThickness": "0.7",
+            "xAxisLineAlpha": "50",
+            "yAxisLineColor": "#8C8C8C",
+            "yAxisLineThickness": "0.7",
+            "yAxisLineAlpha": "50",
+            "baseFontColor": "#8C8C8C",
+            "toolTipBgColor": "#FA8D67",
+            "toolTipPadding": "10",
+            "toolTipColor": "#FFFFFF",
+            "toolTipBorderRadius": "3",
+            "toolTipBorderAlpha": "0",
+            "drawCrossLine": "1",
+            "crossLineColor": "#8C8C8C",
+            "crossLineAlpha": "60",
+            "crossLineThickness": "0.7",
+            "alignCaptionWithCanvas": "1"
+        },
+        "data": cdata
+    }
 });
+firebaseChart.render();
+}

@@ -1,4 +1,4 @@
-
+/*
         FusionCharts.ready(function(){
         var fusioncharts = new FusionCharts({
         type: 'column2d',
@@ -45,4 +45,4 @@
         }
     });
         fusioncharts.render();
-        });
+        });*/
