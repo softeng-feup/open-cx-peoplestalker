@@ -16,12 +16,9 @@
 * [Configuration and change management](#Configuration-and-change-management)	
 * [Project management](#Project-management)	
 
-So far, contributions are exclusively made by the initial team, but we hope to open them to the community, in all areas and topics: requirements, technologies, development, experimentation, testing, etc.	
 
-Please contact us!	
 
-Thank you!	
-
+Project done by:
 
  Ana Isabel Ferreira Maia	
  
