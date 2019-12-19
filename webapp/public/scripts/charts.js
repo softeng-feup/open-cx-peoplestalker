@@ -1,3 +1,4 @@
+
 window.addEventListener("load", getData(genFunction));
 function getData(callbackIN) {
   var ref = firebase.database().ref("sensor/dht/");
@@ -5,13 +6,14 @@ function getData(callbackIN) {
     callbackIN(snapshot.val())
   });
 }
+
 function genFunction(data) {
   var arrData = [];
   for (var prop in data) {
     if (Object.prototype.hasOwnProperty.call(data, prop)) {
       arrData.push(data[prop]);
     }
-}
+  }
   var cdata = [];
   var len = arrData.length;
   for(var i=1; i<len; i++) {
@@ -20,7 +22,7 @@ function genFunction(data) {
       value: arrData[i]['PeopleInRoom']
     });
   }
-var firebaseChart = new FusionCharts({
+  var firebaseChart = new FusionCharts({
     type: 'area2d',
     renderAt: 'chart-container',
     width: '650',
@@ -28,8 +30,10 @@ var firebaseChart = new FusionCharts({
     dataFormat: 'json',
     dataSource: {
         "chart": {
-            "caption": "Website Visitors Trend",
-            "subCaption": "Last 7 Days{br}ACME Inc.",
+            "caption": "Presentation Atendees",
+            "subCaption": "AI in the modern world.",
+            "yaxisname": "Atendees",
+            "xaxisname": "Time",
             "subCaptionFontBold": "0",
             "captionFontSize": "20",
             "subCaptionFontSize": "17",
@@ -70,6 +74,6 @@ var firebaseChart = new FusionCharts({
         },
         "data": cdata
     }
-});
-firebaseChart.render();
+  });
+  firebaseChart.render();
 }

@@ -13,11 +13,16 @@ function gotData(data){
     var percentage = (numberOfPeople / maxPeopleInRoom) * 100;
     //console.log('PeopleInRoom: ');
     //console.log(numberOfPeople);
-    const testDiv = document.querySelector('#test');
-    testDiv.innerHTML = `
-        <h4>People in room: ${numberOfPeople}</h4>
-        <h4>Percentage of seats occupied: ${percentage}%</h4>
-        `;
+    // const testDiv = document.querySelector('#test');
+    // testDiv.innerHTML = `
+    //     <h4>People in room: ${numberOfPeople}</h4>
+    //     <h4>Percentage of seats occupied: ${percentage}%</h4>
+    //     `;
+    const testSpans = document.querySelectorAll('.test');
+    testSpans.forEach(item => item.innerHTML = `
+        <p>People in room: ${numberOfPeople}</p>
+        <p>Percentage of seats occupied: ${percentage}%</p>
+        `);
 }
 
 dbRefObject.on('value', function(snapshot){
@@ -36,10 +41,14 @@ dbRefObject.on('value', function(snapshot){
             }
         }
     }
-    const maxDiv = document.querySelector('#max');
-    maxDiv.innerHTML = `
-        <h4>Maximum number of persons in room: ${max}</h4>
-        `;
+    // const maxDiv = document.querySelector('#max');
+    // maxDiv.innerHTML = `
+    //     <h4>Maximum number of persons in room: ${max}</h4>
+    //     `;
+    const testSpans = document.querySelectorAll('.test');
+    testSpans.forEach(item => item.innerHTML += `
+        <P>Maximum number of persons in room: ${max}</P>
+        `);
 }, errData);
 
 function errData(err){
