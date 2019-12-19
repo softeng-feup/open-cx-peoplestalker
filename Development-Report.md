@@ -35,10 +35,9 @@ Thank you!
 ---	
 
 ## Product Vision	
-Product that uses "IR Beam" or "Break-Beam" (Infrared rays) technology to count the number of people inside a conference room over time to create graphs and statistics that can be useful in knowing which conferences have greater adhesion or interest.	
-
-
-## todo: ser mais claro 	
+PeopleStalker is here to revolutionize the way a conference manager can view the interest and attendance of the public on its presentations.
+With a easy to setup and use product, and clear and concise data statistics given, PeopleStalker aims to conquer the market with a commodity that hasn’t been seen before.
+PeopleStalker, revolutionizing conference statistics for a fluid and concise data interpretation.
 
 
 ---	
