@@ -42,7 +42,13 @@ const setupPresentations = (data) => {
             const li = `
                 <li>
                     <div class = "collapsible-header grey lighten-4">${presentation.title}</div>
-                    <div class = "collapsible-body white">${presentation.content}</div>
+                    <div class = "collapsible-body white">
+                      ${presentation.content}
+                      <p>Date: ${presentation.date}</p>
+                      <p>Start Time: ${presentation.startingtime}</p>
+                      <p>End Time: ${presentation.endtime}</p>
+                    </div>
+
                 </li>
               `;
             html += li;
@@ -50,7 +56,7 @@ const setupPresentations = (data) => {
         presentationList.innerHTML = html;
     } else {
         presentationList.innerHTML = '<h5 class = "center-align">Login to view restricted data</h5>';
-    }    
+    }
 };
 
 // setup materialize components

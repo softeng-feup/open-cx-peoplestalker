@@ -6,7 +6,7 @@
     <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>PeopleStalker</title>
     <style>
-        h1 { 
+        h1 {
             color: black;
             margin-top: 0px;
         }
@@ -17,14 +17,14 @@
     <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
 </head>
 <body class ="grey lighten-3">
-        
+
 <!-- NAVBAR -->
 <nav class = "z-depth-0 grey lighten-4">
     <div class = "nav-wrapper container">
         <a href = "#" class = "brand-logo">
             <h1><img src = "img/logo.png" style = "width: 50px; margin-top: 10px;">PeopleStalker<sup><small>TM</small></sup></h1>
-        </a> 
-        
+        </a>
+
         <ul id = "nav-mobile" class = "right hide-on-med-and-down">
             <li class = "logged-in" style = "display: none">
                 <a href = "#" class = "grey-text modal-trigger" data-target = "modal-account">Account</a>
@@ -129,6 +129,19 @@
                 <textarea id = "content" class = "materialize-textarea" required></textarea>
                 <label for = "content">Content</label>
             </div>
+            <div class = "input-field">
+                <input type = "date" id = "date" required />
+                <label for = "date">Date</label>
+            </div>
+            <div class = "input-field">
+                <input type = "time" id = "startingtime" required />
+                <label for = "time">Start Time</label>
+            </div>
+            <div class = "input-field">
+                <input type = "time" id = "endtime" required />
+                <label for = "time">End Time</label>
+            </div>
+
             <button class = "btn yellow darken-2 z-depth-0">Create</button>
         </form>
     </div>
