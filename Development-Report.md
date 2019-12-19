@@ -36,7 +36,9 @@ Thank you!
 
 ## Product Vision	
 PeopleStalker is here to revolutionize the way a conference manager can view the interest and attendance of the public on its presentations.
+
 With a easy to setup and use product, and clear and concise data statistics given, PeopleStalker aims to conquer the market with a commodity that hasn’t been seen before.
+
 PeopleStalker, revolutionizing conference statistics for a fluid and concise data interpretation.
 
 
