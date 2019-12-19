@@ -1,4 +1,6 @@
+
 #!/usr/bin/python
+
 import os
 import time
 import urllib2 
@@ -53,7 +55,7 @@ def update_firebase(entrance):
 			time.sleep(1)
 		else:
 			print "Connected"
-			#firebase.post('/sensor/dht', data)
+			firebase.post('/sensor/dht', data)
 			nbrOfPeopleInRoomBefore = nbrOfPeopleInRoom
 			break
 		
