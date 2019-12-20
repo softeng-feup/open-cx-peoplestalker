@@ -102,7 +102,7 @@ Among our user stories are :
 -Maximum people in the room in a given presentation	
 -Percentage of seats at the current moment, given the first user storie in this list, and knowing the ammount of seats available (which is inserted by the Admin of the Presentation), calculate the percentage of people in that given moment	
 -Know the ammount of people that were present in the presentation throughout it, by getting the hour and ammount of people in a given presentation and then displaying it in a graph (TODO)	
-TODO - falta as outras e implementa-las	
+-Creating a presentation, the information required for the creation of a presentation is collected from a form available only to admins. This information is then sent to firebase's firestore to create the corresponding instance in the presentation collection. Firestore rules allow only admins to do this by requiring an admin authentication token.
 
 
 ## Implementation	
