@@ -1,5 +1,6 @@
 window.chartId = [];
 window.chartname = [];
+window.presentationTitle = [];
 const presentationList = document.querySelector('.presentations');
 const loggedOutLinks = document.querySelectorAll('.logged-out');
 const loggedInLinks = document.querySelectorAll('.logged-in');
@@ -46,6 +47,7 @@ const setupPresentations = (data) => {
           window.startingtime[i]=presentation.date+"T"+presentation.startingtime+":00.000000";
           window.endtime[i]=presentation.date+"T"+presentation.endtime+":00.000000";
           window.chartId[i] = "chartId" + i;
+          window.presentationTitle[i]=presentation.title+".";
           class1="collapsible-header grey lighten-4_"+i;
         class2="collapsible-body white_"+i;
         window.chartname[i]="chart"+i;

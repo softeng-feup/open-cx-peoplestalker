@@ -5,12 +5,14 @@ const maxPeopleInRoom = 200;
 dbRefObject.limitToLast(1).on('value', gotData, errData);
 
 function gotData(data){
+  for (var i = 0; i < window.chartname.length; i++){
+
     var dataValue = data.val();
-    //console.log(dataValue);
+    console.log(data);
     var keys = Object.keys(dataValue);
     var key = keys[0];
-    var numberOfPeople = dataValue[key].PeopleInRoom;
-    var percentage = (numberOfPeople / maxPeopleInRoom) * 100;
+    window.numberOfPeople = dataValue[key].PeopleInRoom;
+    window.percentage = (numberOfPeople / maxPeopleInRoom) * 100;
     //console.log('PeopleInRoom: ');
     //console.log(numberOfPeople);
     // const testDiv = document.querySelector('#test');
@@ -23,6 +25,7 @@ function gotData(data){
         <p>People in room: ${numberOfPeople}</p>
         <p>Percentage of seats occupied: ${percentage}%</p>
         `);
+    }
 }
 
 dbRefObject.on('value', function(snapshot){
