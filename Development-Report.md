@@ -78,10 +78,10 @@ Trello - https://trello.com/b/UpNIOA4Q/esof-people-stalker
 
 ## Architecture and Design	
 ### Logical architecture	
-TODO-perguntar stor	
-![Logical_architecture](https://i.gyazo.com/bf31b4a621fe01220b4a78d297edce8d.png)	
 
-TODO: Ordenar codigo em packages, ver melhor arquitectura logica 	
+![Logical_architecture](https://i.gyazo.com/bf31b4a621fe01220b4a78d297edce8d.png)	
+![Logical_architecture2](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/logical.png)
+	
 
 
 ### Physical architecture	
