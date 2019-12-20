@@ -8,23 +8,37 @@ function getData(callbackIN) {
 }
 
 function genFunction(data) {
+for (var i = 0; i < window.chartname.length; i++) {
+
   var arrData = [];
   for (var prop in data) {
     if (Object.prototype.hasOwnProperty.call(data, prop)) {
       arrData.push(data[prop]);
     }
   }
+
+console.log(arrData[1]['DateTime']);
+
+console.log(Date.parse(arrData[1]['DateTime']));
+console.log(Date.parse(window.startingtime[i]));
+
   var cdata = [];
   var len = arrData.length;
-  for(var i=1; i<len; i++) {
+  for(var j=1; j<len; j++) {
+    if((Date.parse(arrData[j]['DateTime']) > Date.parse(window.startingtime[i]))&&(Date.parse(arrData[j]['DateTime']) < Date.parse(window.endtime[i]))) {
+      console.log("AAAAAAAA");
     cdata.push({
-      label: arrData[i]['DataTime'],
-      value: arrData[i]['PeopleInRoom']
+      label: arrData[j]['DataTime'],
+      value: arrData[j]['PeopleInRoom']
     });
+
   }
-  var firebaseChart = new FusionCharts({
+  }
+
+
+  window.chartname[i] = new FusionCharts({
     type: 'area2d',
-    renderAt: 'chart-container',
+    renderAt: window.chartId[i],
     width: '650',
     height: '400',
     dataFormat: 'json',
@@ -75,5 +89,6 @@ function genFunction(data) {
         "data": cdata
     }
   });
-  firebaseChart.render();
+  window.chartname[i].render();
+}
 }
