@@ -39,9 +39,14 @@ PeopleStalker, revolutionizing conference statistics for a fluid and concise dat
 
 
 ## Elevator Pitch	
+PeopleStalker is a product being developped by a team of young student entrepeneurs studying a master informatics and computing engineering.
+
 While it easy to get information regarding how many people attended a conference, or, paid for a ticket, one might be interested in knowing exactly how many people attended each presentation within a conference, the maximum number of people inside the presentation, or just knowing if the room is full or not, as an attendee looking for a seat.
 
-As a solution to this, we have envisioned and developed PeopleStalker! With an easy to set-up and use product, and a simple and concise WebApp, we allow conference managers to deploy a new tool to monitor and get new data never obtained before in conferences.
+As a solution to this, we have envisioned and developed PeopleStalker! With an easy to set-up and use product consisting in a micro computer and sensors, and a simple and concise WebApp, we allow conference managers to deploy a new tool to monitor and get new data never obtained before in conferences.
+
+![PeoepleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/sensor.jpg)	
+
 
 Using our product, one can get information regarding the percentage of seats taken, which can be helpful as an attendee looking to enter a presentation, the maximum number of people that were at one point in a presentation, and the graph of people attending the presentation throughout time.
 
