@@ -49,7 +49,8 @@ createForm.addEventListener('submit', (e) => {
         date: createForm['date'].value,
         startingtime: createForm['startingtime'].value,
         endtime: createForm['endtime'].value,
-
+        maxSeats: createForm['maxSeats'].value,
+        speaker: createForm['speaker'].value,
     }).then(() => {
         //close modal and reset form
         const modal = document.querySelector('#modal-create');

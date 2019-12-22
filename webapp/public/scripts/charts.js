@@ -34,6 +34,7 @@ for (var i = 0; i < window.chartname.length; i++) {
       label: arrData[j]['DateTime'],
       value: arrData[j]['PeopleInRoom']
     });
+    console.log(arrData[j]['DateTime']);
     window.numberOfPeople=arrData[j]['PeopleInRoom'];
   }
 
@@ -119,13 +120,14 @@ function genFunction2(data) {
   var firebaseChart = new FusionCharts({
     type: 'area2d',
     renderAt: 'chart-container',
-    width: '650',
+    width: '941',
     height: '400',
     dataFormat: 'json',
     dataSource: {
         "chart": {
+
             "caption": "Presentation Atendees",
-            "subCaption": "AI in the modern world.",
+            "subCaption": "Main Board",
             "yaxisname": "Atendees",
             "xaxisname": "Time",
             "subCaptionFontBold": "0",

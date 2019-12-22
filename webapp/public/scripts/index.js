@@ -1,6 +1,7 @@
 window.chartId = [];
 window.chartname = [];
 window.presentationTitle = [];
+window.maxSeats = [];
 const presentationList = document.querySelector('.presentations');
 const loggedOutLinks = document.querySelectorAll('.logged-out');
 const loggedInLinks = document.querySelectorAll('.logged-in');
@@ -48,6 +49,7 @@ const setupPresentations = (data) => {
           window.endtime[i]=presentation.date+"T"+presentation.endtime+":00.000000";
           window.chartId[i] = "chartId" + i;
           window.presentationTitle[i]=presentation.title+".";
+          window.maxSeats[i]=presentation.maxSeats;
           class1="collapsible-header grey lighten-4_"+i;
         class2="collapsible-body white_"+i;
         window.chartname[i]="chart"+i;
@@ -56,11 +58,12 @@ const setupPresentations = (data) => {
                 <li>
                     <div class = "${class1}">${presentation.title}</div>
                     <div class = "${class2}">
+                      <p>Speaker: ${presentation.speaker}</p>
                       ${presentation.content}
                       <p>Date: ${presentation.date}</p>
                       <p>Start Time: ${presentation.startingtime}</p>
                       <p>End Time: ${presentation.endtime}</p>
-                      <span class = "test"></span>
+                      <p>Number of seats: ${presentation.maxSeats}</p>
                       <div id=${window.chartId[i]}><svg width="90px"  height="90px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-rolling" style="background: none;"><circle cx="50" cy="50" fill="none" ng-attr-stroke="{{config.color}}" ng-attr-stroke-width="{{config.width}}" ng-attr-r="{{config.radius}}" ng-attr-stroke-dasharray="{{config.dasharray}}" stroke="#6ac1a5" stroke-width="9" r="33" stroke-dasharray="155.50883635269477 53.83627878423159" transform="rotate(324 50 50)"><animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animateTransform></circle></svg></div>
 
                     </div>

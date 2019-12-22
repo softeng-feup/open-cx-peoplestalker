@@ -11,8 +11,10 @@ function gotData(data){
     console.log(data);
     var keys = Object.keys(dataValue);
     var key = keys[0];
-    window.numberOfPeople = dataValue[key].PeopleInRoom;
-    window.percentage = (numberOfPeople / maxPeopleInRoom) * 100;
+    numberOfPeople = dataValue[key].PeopleInRoom;
+    percentage_temp = (numberOfPeople / window.maxSeats[i]) * 100;
+    percentage=percentage_temp.toFixed(2);
+
     //console.log('PeopleInRoom: ');
     //console.log(numberOfPeople);
     // const testDiv = document.querySelector('#test');
@@ -20,6 +22,7 @@ function gotData(data){
     //     <h4>People in room: ${numberOfPeople}</h4>
     //     <h4>Percentage of seats occupied: ${percentage}%</h4>
     //     `;
+
     const testSpans = document.querySelectorAll('.test');
     testSpans.forEach(item => item.innerHTML = `
         <p>People in room: ${numberOfPeople}</p>
@@ -50,7 +53,7 @@ dbRefObject.on('value', function(snapshot){
     //     `;
     const testSpans = document.querySelectorAll('.test');
     testSpans.forEach(item => item.innerHTML += `
-        <P>Maximum number of persons in room: ${max}</P>
+        <P>Maximum number of persons in room until now: ${max}</P>
         `);
 }, errData);
 
