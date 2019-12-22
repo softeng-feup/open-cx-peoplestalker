@@ -45,9 +45,6 @@ While it easy to get information regarding how many people attended a conference
 
 As a solution to this, we have envisioned and developed PeopleStalker! With an easy to set-up and use product consisting in a micro computer and sensors, and a simple and concise WebApp, we allow conference managers to deploy a new tool to monitor and get new data never obtained before in conferences.
 
-![PeoepleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/sensor.jpg)	
-
-
 Using our product, one can get information regarding the percentage of seats taken, which can be helpful as an attendee looking to enter a presentation, the maximum number of people that were at one point in a presentation, and the graph of people attending the presentation throughout time.
 
 Via our WebApp, the conference manager can configure the product to set the times a Presentation starts and ends and will afterwards get the data for each presentation. The conference manager can also choose to show this information to the public.
@@ -110,9 +107,13 @@ Among our user stories are :
 ## Implementation	
 Our project is being implemented using Raspberry Pi and a sensor in a doorway, that then sends information to a firebase realtime database. 	
 The section below will describe each iteration in the process of developing our project:	
+
 Iteration 1: In this iteration we dedicated our time to acquire the desired sensors and discover how they worked with the Raspberry Pi. At the same time, we started to better define the objectives of our project. 	
+
 Iteration 2: Started developing the code in C we would use to then count the ammount of people in a room and send that information, along with the time and date, to our desired database.	
+
 Iteration 3: Choose the desired database to use, it being Firebase. Put our code developed in iteration 2 in Python so that it can then transfer the information from the sensors and Raspberry Pi to Firebase.	
+
 Iteration 4: Development of the web page created to display the statistics we would calculate using the above information. Completed some of the basic user stories.	
 
 
