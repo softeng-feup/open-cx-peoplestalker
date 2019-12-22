@@ -12,7 +12,6 @@
   * [Physical architecture](#Physical-architecture)	
   * [Prototype](#Prototype)	
 * [Implementation](#Implementation)	
-* [Test](#Test)	
 * [Configuration and change management](#Configuration-and-change-management)	
 * [Project management](#Project-management)	
 
@@ -90,7 +89,9 @@ The PI gives power to the breadboard, to which the sensors are connected, and th
 Using a special Firebase library, the program updates our Firebase database everytime someone crosses the sensor.
 Our WebApp gets its inputs from the Firebase Library and displays the data relative to the presentations on the website.
 With the PI's WI-FI connectability, it is connected to the internet, either via FEUP's internet, or using a mobile router. 	
-![Physical architecture](https://raw.githubusercontent.com/softeng-feup/open-cx-peoplestalker/master/physical-architecture.png)	
+![Component Diagram](https://raw.githubusercontent.com/softeng-feup/open-cx-peoplestalker/master/component-diagram.png)	
+
+deployment diagram: 
 
 	
 
@@ -118,15 +119,13 @@ The section below will describe each iteration in the process of developing our 
 
 Iteration 1: In this iteration we dedicated our time to acquire the desired sensors and discover how they worked with the Raspberry Pi. At the same time, we started to better define the objectives of our project. 	
 
-Iteration 2: Started developing the code in C we would use to then count the ammount of people in a room and send that information, along with the time and date, to our desired database.	
+Iteration 2: Started developing the code in Python we would use to then count the ammount of people in a room and send that information, along with the time and date, to our desired database.	
 
 Iteration 3: Choose the desired database to use, it being Firebase. Put our code developed in iteration 2 in Python so that it can then transfer the information from the sensors and Raspberry Pi to Firebase.	
 
-Iteration 4: Development of the web page created to display the statistics we would calculate using the above information. Completed some of the basic user stories.	
+Iteration 4: Development of the web page created to display the statistics we would calculate using the above information. Completed some of the basic user stories. Also organized our sensors and Raspberry micro computer into a small package that is easy to use and place at any doorway:
 
-
-## Test	
-//Temos de fazer aceeptance Test, nada feito por enquanto	
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/sensor.jpg)	
 
 ## Configuration and change management	
 Configuration and change management are key activities to control change to, and maintain the integrity of, a project’s artifacts (code, models, documents).	
