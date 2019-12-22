@@ -91,9 +91,8 @@ With the PI's WI-FI connectability, it is connected to the internet, either via 
 
 ![Component Diagram](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/component-diagram.jpg)	
 
-TODO:deployment diagram: 
+![Deployment Diagram](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/deployment-diagram.jpg)
 
-	
 
 ### Prototype	
 In this section we will briefly describe the iterations and user stories associated with them throughout out project.
