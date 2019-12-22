@@ -127,6 +127,13 @@ Iteration 4: Development of the web page created to display the statistics we wo
 
 ![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/sensor.jpg)	
 
+Once finished, our website WebApp looked like this:
+
+![Website1](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/website1.png)
+
+![Website2](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/website2.png)
+
+
 ## Configuration and change management	
 Configuration and change management are key activities to control change to, and maintain the integrity of, a project’s artifacts (code, models, documents).	
 
