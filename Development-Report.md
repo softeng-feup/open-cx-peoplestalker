@@ -77,8 +77,7 @@ Trello - https://trello.com/b/UpNIOA4Q/esof-people-stalker
 ## Architecture and Design	
 ### Logical architecture	
 
-![Logical_architecture](https://i.gyazo.com/bf31b4a621fe01220b4a78d297edce8d.png)	
-![Logical_architecture2](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/logical.png)
+TODO
 	
 
 
@@ -88,10 +87,11 @@ On a hardware point of view, our product is simple. We have a Raspberry Pi 3, a 
 The PI gives power to the breadboard, to which the sensors are connected, and they give their output back. Using the Raspberry Pi 3's functionalities and I/O pin's, we read these inputs and process them via a state machine programmed in Python that we coded.	
 Using a special Firebase library, the program updates our Firebase database everytime someone crosses the sensor.
 Our WebApp gets its inputs from the Firebase Library and displays the data relative to the presentations on the website.
-With the PI's WI-FI connectability, it is connected to the internet, either via FEUP's internet, or using a mobile router. 	
+With the PI's WI-FI connectability, it is connected to the internet, either via FEUP's internet, or using a mobile router. 
+
 ![Component Diagram](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/component-diagram.jpg)	
 
-deployment diagram: 
+TODO:deployment diagram: 
 
 	
 
