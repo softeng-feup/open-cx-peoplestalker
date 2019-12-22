@@ -129,9 +129,11 @@ Iteration 4: Development of the web page created to display the statistics we wo
 
 Once finished, our website WebApp looked like this:
 
-![Website1](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/website1.png)
+![Website2](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/website1.png)
 
-![Website2](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/website2.png)
+As a logged in Admin, once can create a session where they define the speaker, date, time and description of the presentation, which would look like this:
+
+![Website1](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/website2.png)
 
 
 ## Configuration and change management	
