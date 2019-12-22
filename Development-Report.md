@@ -82,7 +82,13 @@ TODO
 ## Architecture and Design
 ### Logical architecture
 
-![Logical Architecture UML](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/logical.png)	
+On a Logical point of view, our product has a relatively simple organization.
+We decided to use a MVC model, dividing the project into 3 separate components, Model, View and Controller.
+The Controller is responsible for all the user input and information received from the hardware (In this case, the sensors), and provides it to both the View and the Model.
+The Model serves as the main comunication method between the webapp and the database, managing the data, logic and rules of the application. It then provides the View and the Controller with the information gathered in the database.
+The View is responsible for the display of all components in the webapp, using the information received from the Controller and the charts generated from the information from the Model.
+
+![Logical Architecture UML](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/logical.png)
 
 
 
