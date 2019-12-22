@@ -5,7 +5,8 @@
   * [Elevator Pitch](#Elevator-Pitch)	
 * Requirements	
   * [Use Case Diagram](#Use-case-diagram)	
-  * [User stories](#User-stories)	
+  * [User stories](#User-stories)
+  * [Mock ups](#Mock-ups)
   * [Domain model](#Domain-model)	
 * Architecture and Design	
   * [Logical architecture](#Logical-architecture)	
@@ -67,7 +68,11 @@ The Speaker is the person who is presenting the presentation, the Attendee is so
 
 ### User stories	
 
-Trello - https://trello.com/b/UpNIOA4Q/esof-people-stalker	
+Trello - https://trello.com/b/UpNIOA4Q/esof-people-stalker
+
+### Mock Ups
+
+TODO
 
 ### Domain model	
 
