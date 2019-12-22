@@ -131,7 +131,7 @@ Iteration 4: Development of the web page created to display the statistics we wo
 
 ![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/sensor.jpg)	
 
-Once finished, our website WebApp looked like this:
+Once finished, our website WebApp looked like this(accessable in https://peoplestalker-318b4.web.app/):
 
 ![Website2](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/website2.png)
 
