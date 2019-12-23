@@ -17,6 +17,10 @@
 * [Project management](#Project-management)
 
 
+webapp: https://peoplestalker-318b4.web.app/
+admin login: admin@peoplestalker.pt/passwade
+
+
 
 Project done by:
 
@@ -154,48 +158,48 @@ After we identified our main acceptance tests, we used Telerik test studio in or
 #Test Login with invalid email
 
 This test was used to check the response of the webapp if a wrong email address is given at the login.
-![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test1.jpg)
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test1.JPG)
 
 #Test Login with invalid password
 
 This test was used to check the response of the webapp if a wrong password is given at the login.
-![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test2.jpg)
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test2.JPG)
 
 #Test Login with valid credentials
 
 This test was used to check if the login works with valid credentials, and if the webapp redirects to the correct page after the sucessfull login
-![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test3.jpg)
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test3.JPG)
 
 #Test the creation of a presentation with invalid credentials
 
 This test was used to check the behaviour of the webapp if invalid credentials are given at the moment of the creation of the presentation
-![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test4.jpg)
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test4.JPG)
 
 #Test the creation of a presentation with valid credentials
 
 This test was used to check the behaviour of the webapp if valid credentials are given at the moment of the creation of the presentation, and if the webapp redirects to the correct page after the sucessfull creation of the presentations
-![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test5.jpg)
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test5.JPG)
 
 #Test the display of the main attendance graph
 
 This test was used to check the display of the main chart, containing the number of people through a period of time
-![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test6.jpg)
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test6.JPG)
 
 #Test the display of the maximum number of persons in room until now
 
 This test was used to check the display of the information of the maximum number of persons in room until a given moment
-![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test7.jpg)
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test7.JPG)
 
 #Test the display of the number of people in room
 
 This test was used to check the display of the information of the number of people in the room in that precise moment
-![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test8.jpg)
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test8.JPG)
 
 
 #Test the display of the percentage of people in room
 
 This test was used to check the display of the information of the percentage of people in the room in that precise moment, in relation to the maximum capacity of the room
-![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test9.jpg)
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test9.JPG)
 
 
 ## Configuration and change management
