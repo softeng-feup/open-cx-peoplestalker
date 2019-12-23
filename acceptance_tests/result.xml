@@ -1,0 +1,1632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root type="object">
+  <Items type="array">
+    <item type="object" __type="ArtOfTest.WebAii.Design.Execution.RunResult">
+      <__value type="object">
+        <IsComplete type="boolean">true</IsComplete>
+        <Name type="string">Test List</Name>
+        <StartTime type="string">2019-12-23T01:05:46Z</StartTime>
+        <EndTime type="string">2019-12-23T01:07:25.9204594Z</EndTime>
+        <Id type="string">437b757c-c70b-4e9f-8147-59f1f60a6247</Id>
+        <PassedResult type="boolean">true</PassedResult>
+        <IsRerun type="boolean">false</IsRerun>
+        <HasWarnings type="boolean">false</HasWarnings>
+        <PassedCount type="number">9</PassedCount>
+        <FailedCount type="number">0</FailedCount>
+        <NotRunCount type="number">0</NotRunCount>
+        <DispatchGroupId type="string">00000000-0000-0000-0000-000000000000</DispatchGroupId>
+        <DataCollectors type="object"></DataCollectors>
+        <TestResults type="array">
+          <item type="object" __type="ArtOfTest.WebAii.Design.Execution.TestResult">
+            <__value type="object">
+              <Browser type="number">7</Browser>
+              <ExeType type="number">5</ExeType>
+              <SeparatorLineCharCount type="number">60</SeparatorLineCharCount>
+              <Message type="string">Overall Result: Pass
+------------------------------------------------------------
+'23/12/2019 01:05:47' - Executing test: 'Create Presentation', path: 'Create Presentation.tstest.'
+'23/12/2019 01:05:47' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2019.3.1030.0'.
+'23/12/2019 01:05:47' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'23/12/2019 01:05:49' - Using 'Chrome' version '79.0.3945.88' as default browser. 
+'23/12/2019 01:05:49' - Using 'https://peoplestalker-318b4.web.app/' as base url.
+'23/12/2019 01:05:50' - 'Pass' : 1. Navigate to : 'https://peoplestalker-318b4.web.app/'
+'23/12/2019 01:05:50' - 'Pass' : 2. Click 'LoginLink'
+'23/12/2019 01:05:50' - 'Pass' : 3. Enter text 'admin@peoplestalker.pt' in 'LoginEmail'
+'23/12/2019 01:05:50' - 'Pass' : 4. Enter text 'passwade' in 'LoginPassword'
+'23/12/2019 01:05:51' - 'Pass' : 5. Click 'LoginButtonTag'
+'23/12/2019 01:05:51' - 'Pass' : 6. Click 'CreateLink'
+'23/12/2019 01:05:51' - 'Pass' : 7. Enter text 'Test Presentation' in 'TitleText'
+'23/12/2019 01:05:51' - 'Pass' : 8. Enter text 'Test Presentation Description' in 'ContentTextArea'
+'23/12/2019 01:05:52' - 'Pass' : 9. Enter text '20122019' in 'DateText'
+'23/12/2019 01:05:52' - 'Pass' : 10. Enter text '1100' in 'StartingtimeText'
+'23/12/2019 01:05:52' - 'Pass' : 11. Enter text '1200' in 'EndtimeText'
+'23/12/2019 01:05:52' - 'Pass' : 12. Enter text '50' in 'MaxSeatsText'
+'23/12/2019 01:05:53' - 'Pass' : 13. Enter text 'Jose Manuel' in 'SpeakerText'
+'23/12/2019 01:05:53' - 'Pass' : 14. Click 'CreateButtonTag'
+'23/12/2019 01:05:53' - 'Pass' : 15. Wait for Exists 'CreateButtonTag'
+------------------------------------------------------------
+'23/12/2019 01:05:53' - Overall Result: Pass
+'23/12/2019 01:05:53' - Duration: [0 min: 3 sec: 947 msec]
+------------------------------------------------------------
+'23/12/2019 01:05:54' - Test completed!
+</Message>
+              <ScreenRecordingResultPath type="null"></ScreenRecordingResultPath>
+              <ScreenRecordingResultError type="null"></ScreenRecordingResultError>
+              <ScreenRecordingResultCodec type="null"></ScreenRecordingResultCodec>
+              <ScreenRecordingResultSize type="number">0</ScreenRecordingResultSize>
+              <FailureException type="null"></FailureException>
+              <Result type="number">0</Result>
+              <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+              <TestName type="string">Create Presentation</TestName>
+              <IsRerun type="boolean">false</IsRerun>
+              <TestPath type="string">Create Presentation.tstest</TestPath>
+              <TestOwner type="string"></TestOwner>
+              <TestDescription type="string"></TestDescription>
+              <ProjectPath type="string"></ProjectPath>
+              <StepResults type="array">
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">0</TestStepIndex>
+                    <StepDescription type="string">Navigate to : 'https://peoplestalker-318b4.web.app/'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">1</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1347723234</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">1</TestStepIndex>
+                    <StepDescription type="string">Click 'LoginLink'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">2</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960561</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">2</TestStepIndex>
+                    <StepDescription type="string">Enter text 'admin@peoplestalker.pt' in 'LoginEmail'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">3</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498605</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">3</TestStepIndex>
+                    <StepDescription type="string">Enter text 'passwade' in 'LoginPassword'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">4</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498606</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">4</TestStepIndex>
+                    <StepDescription type="string">Click 'LoginButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">5</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960564</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">5</TestStepIndex>
+                    <StepDescription type="string">Click 'CreateLink'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">6</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960565</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">6</TestStepIndex>
+                    <StepDescription type="string">Enter text 'Test Presentation' in 'TitleText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">7</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498609</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">7</TestStepIndex>
+                    <StepDescription type="string">Enter text 'Test Presentation Description' in 'ContentTextArea'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">8</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498610</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">8</TestStepIndex>
+                    <StepDescription type="string">Enter text '20122019' in 'DateText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">9</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498611</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">9</TestStepIndex>
+                    <StepDescription type="string">Enter text '1100' in 'StartingtimeText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">10</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498612</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">10</TestStepIndex>
+                    <StepDescription type="string">Enter text '1200' in 'EndtimeText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">11</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498613</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">11</TestStepIndex>
+                    <StepDescription type="string">Enter text '50' in 'MaxSeatsText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">12</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498614</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">12</TestStepIndex>
+                    <StepDescription type="string">Enter text 'Jose Manuel' in 'SpeakerText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">13</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498615</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">13</TestStepIndex>
+                    <StepDescription type="string">Click 'CreateButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">14</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960573</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Create Presentation</TestName>
+                    <TestPath type="string">Create Presentation.tstest</TestPath>
+                    <TestId type="string">5196f253-c7ac-45d1-992b-57643c5a5ac7</TestId>
+                    <TestStepIndex type="number">14</TestStepIndex>
+                    <StepDescription type="string">Wait for Exists 'CreateButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">15</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">-898084776</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+              </StepResults>
+              <NotRunStepDescriptions type="array"></NotRunStepDescriptions>
+              <TotalPassedSteps type="number">15</TotalPassedSteps>
+              <ExecutingTestStepCount type="number">15</ExecutingTestStepCount>
+              <TotalNumberOfNotRunSteps type="number">0</TotalNumberOfNotRunSteps>
+              <IsDataDrivenResult type="boolean">false</IsDataDrivenResult>
+              <DataIterationResults type="array"></DataIterationResults>
+              <EndTime type="string">2019-12-23T01:05:53.6814104Z</EndTime>
+              <StartTime type="string">2019-12-23T01:05:49.7336358Z</StartTime>
+              <ProfilerResultsPath type="null"></ProfilerResultsPath>
+              <VersionGroupKey type="string">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+              <CommitedBy type="null"></CommitedBy>
+              <HasWarnings type="boolean">false</HasWarnings>
+            </__value>
+          </item>
+          <item type="object" __type="ArtOfTest.WebAii.Design.Execution.TestResult">
+            <__value type="object">
+              <Browser type="number">7</Browser>
+              <ExeType type="number">5</ExeType>
+              <SeparatorLineCharCount type="number">60</SeparatorLineCharCount>
+              <Message type="string">Overall Result: Pass
+------------------------------------------------------------
+'23/12/2019 01:05:54' - Executing test: 'Fail to Create Presentation', path: 'Fail to Create Presentation.tstest.'
+'23/12/2019 01:05:54' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2019.3.1030.0'.
+'23/12/2019 01:05:54' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'23/12/2019 01:05:57' - Using 'Chrome' version '79.0.3945.88' as default browser. 
+'23/12/2019 01:05:57' - Using 'https://peoplestalker-318b4.web.app/' as base url.
+'23/12/2019 01:05:57' - 'Pass' : 1. Navigate to : 'https://peoplestalker-318b4.web.app/'
+'23/12/2019 01:05:57' - 'Pass' : 2. Click 'LoginLink'
+'23/12/2019 01:05:57' - 'Pass' : 3. Enter text 'admin@peoplestalker.pt' in 'LoginEmail'
+'23/12/2019 01:05:58' - 'Pass' : 4. Enter text 'passwade' in 'LoginPassword'
+'23/12/2019 01:05:58' - 'Pass' : 5. Click 'LoginButtonTag'
+'23/12/2019 01:05:58' - 'Pass' : 6. Click 'CreateLink'
+'23/12/2019 01:05:58' - 'Pass' : 7. Enter text 'Test Presentation' in 'TitleText'
+'23/12/2019 01:05:59' - 'Pass' : 8. Enter text 'Test Presentation Description' in 'ContentTextArea'
+'23/12/2019 01:05:59' - 'Pass' : 9. Enter text '20122019' in 'DateText'
+'23/12/2019 01:05:59' - 'Pass' : 10. Enter text '1100' in 'StartingtimeText'
+'23/12/2019 01:05:59' - 'Pass' : 11. Enter text '1200' in 'EndtimeText'
+'23/12/2019 01:06:00' - 'Pass' : 12. Enter text '50' in 'MaxSeatsText'
+'23/12/2019 01:06:00' - 'Pass' : 13. Enter text 'Jose Manuel' in 'SpeakerText'
+'23/12/2019 01:06:00' - 'Pass' : 14. Click 'CreateButtonTag'
+'23/12/2019 01:06:01' - 'Pass' : 15. Wait for Exists 'CreateButtonTag'
+------------------------------------------------------------
+'23/12/2019 01:06:01' - Overall Result: Pass
+'23/12/2019 01:06:01' - Duration: [0 min: 3 sec: 916 msec]
+------------------------------------------------------------
+'23/12/2019 01:06:01' - Test completed!
+</Message>
+              <ScreenRecordingResultPath type="null"></ScreenRecordingResultPath>
+              <ScreenRecordingResultError type="null"></ScreenRecordingResultError>
+              <ScreenRecordingResultCodec type="null"></ScreenRecordingResultCodec>
+              <ScreenRecordingResultSize type="number">0</ScreenRecordingResultSize>
+              <FailureException type="null"></FailureException>
+              <Result type="number">0</Result>
+              <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+              <TestName type="string">Fail to Create Presentation</TestName>
+              <IsRerun type="boolean">false</IsRerun>
+              <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+              <TestOwner type="string"></TestOwner>
+              <TestDescription type="string"></TestDescription>
+              <ProjectPath type="string"></ProjectPath>
+              <StepResults type="array">
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">0</TestStepIndex>
+                    <StepDescription type="string">Navigate to : 'https://peoplestalker-318b4.web.app/'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">1</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1347723234</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">1</TestStepIndex>
+                    <StepDescription type="string">Click 'LoginLink'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">2</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960561</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">2</TestStepIndex>
+                    <StepDescription type="string">Enter text 'admin@peoplestalker.pt' in 'LoginEmail'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">3</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498605</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">3</TestStepIndex>
+                    <StepDescription type="string">Enter text 'passwade' in 'LoginPassword'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">4</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498606</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">4</TestStepIndex>
+                    <StepDescription type="string">Click 'LoginButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">5</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960564</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">5</TestStepIndex>
+                    <StepDescription type="string">Click 'CreateLink'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">6</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960565</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">6</TestStepIndex>
+                    <StepDescription type="string">Enter text 'Test Presentation' in 'TitleText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">7</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498609</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">7</TestStepIndex>
+                    <StepDescription type="string">Enter text 'Test Presentation Description' in 'ContentTextArea'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">8</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498610</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">8</TestStepIndex>
+                    <StepDescription type="string">Enter text '20122019' in 'DateText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">9</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498611</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">9</TestStepIndex>
+                    <StepDescription type="string">Enter text '1100' in 'StartingtimeText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">10</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498612</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">10</TestStepIndex>
+                    <StepDescription type="string">Enter text '1200' in 'EndtimeText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">11</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498613</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">11</TestStepIndex>
+                    <StepDescription type="string">Enter text '50' in 'MaxSeatsText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">12</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498614</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">12</TestStepIndex>
+                    <StepDescription type="string">Enter text 'Jose Manuel' in 'SpeakerText'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">13</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498615</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">13</TestStepIndex>
+                    <StepDescription type="string">Click 'CreateButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">14</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960573</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Fail to Create Presentation</TestName>
+                    <TestPath type="string">Fail to Create Presentation.tstest</TestPath>
+                    <TestId type="string">0da04a73-191c-49d9-ad50-c715f6576dc1</TestId>
+                    <TestStepIndex type="number">14</TestStepIndex>
+                    <StepDescription type="string">Wait for Exists 'CreateButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">15</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">-898084776</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+              </StepResults>
+              <NotRunStepDescriptions type="array"></NotRunStepDescriptions>
+              <TotalPassedSteps type="number">15</TotalPassedSteps>
+              <ExecutingTestStepCount type="number">15</ExecutingTestStepCount>
+              <TotalNumberOfNotRunSteps type="number">0</TotalNumberOfNotRunSteps>
+              <IsDataDrivenResult type="boolean">false</IsDataDrivenResult>
+              <DataIterationResults type="array"></DataIterationResults>
+              <EndTime type="string">2019-12-23T01:06:01.0247503Z</EndTime>
+              <StartTime type="string">2019-12-23T01:05:57.108295Z</StartTime>
+              <ProfilerResultsPath type="null"></ProfilerResultsPath>
+              <VersionGroupKey type="string">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+              <CommitedBy type="null"></CommitedBy>
+              <HasWarnings type="boolean">false</HasWarnings>
+            </__value>
+          </item>
+          <item type="object" __type="ArtOfTest.WebAii.Design.Execution.TestResult">
+            <__value type="object">
+              <Browser type="number">7</Browser>
+              <ExeType type="number">5</ExeType>
+              <SeparatorLineCharCount type="number">60</SeparatorLineCharCount>
+              <Message type="string">Overall Result: Pass
+------------------------------------------------------------
+'23/12/2019 01:06:01' - Executing test: 'See main attendance graph', path: 'See main attendance graph.tstest.'
+'23/12/2019 01:06:01' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2019.3.1030.0'.
+'23/12/2019 01:06:01' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'23/12/2019 01:06:04' - Using 'Chrome' version '79.0.3945.88' as default browser. 
+'23/12/2019 01:06:04' - Using 'https://peoplestalker-318b4.web.app/' as base url.
+'23/12/2019 01:06:04' - 'Pass' : 1. Navigate to : 'https://peoplestalker-318b4.web.app/'
+'23/12/2019 01:06:20' - 'Pass' : 2. Wait for Exists 'RectTag'
+------------------------------------------------------------
+'23/12/2019 01:06:20' - Overall Result: Pass
+'23/12/2019 01:06:20' - Duration: [0 min: 16 sec: 181 msec]
+------------------------------------------------------------
+'23/12/2019 01:06:21' - Test completed!
+</Message>
+              <ScreenRecordingResultPath type="null"></ScreenRecordingResultPath>
+              <ScreenRecordingResultError type="null"></ScreenRecordingResultError>
+              <ScreenRecordingResultCodec type="null"></ScreenRecordingResultCodec>
+              <ScreenRecordingResultSize type="number">0</ScreenRecordingResultSize>
+              <FailureException type="null"></FailureException>
+              <Result type="number">0</Result>
+              <TestId type="string">99c06203-7e16-42d6-930a-be58c023bb10</TestId>
+              <TestName type="string">See main attendance graph</TestName>
+              <IsRerun type="boolean">false</IsRerun>
+              <TestPath type="string">See main attendance graph.tstest</TestPath>
+              <TestOwner type="string"></TestOwner>
+              <TestDescription type="string"></TestDescription>
+              <ProjectPath type="string"></ProjectPath>
+              <StepResults type="array">
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">See main attendance graph</TestName>
+                    <TestPath type="string">See main attendance graph.tstest</TestPath>
+                    <TestId type="string">99c06203-7e16-42d6-930a-be58c023bb10</TestId>
+                    <TestStepIndex type="number">0</TestStepIndex>
+                    <StepDescription type="string">Navigate to : 'https://peoplestalker-318b4.web.app/'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">1</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1347723234</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">See main attendance graph</TestName>
+                    <TestPath type="string">See main attendance graph.tstest</TestPath>
+                    <TestId type="string">99c06203-7e16-42d6-930a-be58c023bb10</TestId>
+                    <TestStepIndex type="number">1</TestStepIndex>
+                    <StepDescription type="string">Wait for Exists 'RectTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">2</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">-898084789</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+              </StepResults>
+              <NotRunStepDescriptions type="array"></NotRunStepDescriptions>
+              <TotalPassedSteps type="number">2</TotalPassedSteps>
+              <ExecutingTestStepCount type="number">2</ExecutingTestStepCount>
+              <TotalNumberOfNotRunSteps type="number">0</TotalNumberOfNotRunSteps>
+              <IsDataDrivenResult type="boolean">false</IsDataDrivenResult>
+              <DataIterationResults type="array"></DataIterationResults>
+              <EndTime type="string">2019-12-23T01:06:20.7447003Z</EndTime>
+              <StartTime type="string">2019-12-23T01:06:04.5631172Z</StartTime>
+              <ProfilerResultsPath type="null"></ProfilerResultsPath>
+              <VersionGroupKey type="string">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+              <CommitedBy type="null"></CommitedBy>
+              <HasWarnings type="boolean">false</HasWarnings>
+            </__value>
+          </item>
+          <item type="object" __type="ArtOfTest.WebAii.Design.Execution.TestResult">
+            <__value type="object">
+              <Browser type="number">7</Browser>
+              <ExeType type="number">5</ExeType>
+              <SeparatorLineCharCount type="number">60</SeparatorLineCharCount>
+              <Message type="string">Overall Result: Pass
+------------------------------------------------------------
+'23/12/2019 01:06:21' - Executing test: 'See maximum number of persons in room until now', path: 'See maximum number of persons in room until now.tstest.'
+'23/12/2019 01:06:21' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2019.3.1030.0'.
+'23/12/2019 01:06:21' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'23/12/2019 01:06:23' - Using 'Chrome' version '79.0.3945.88' as default browser. 
+'23/12/2019 01:06:23' - Using 'https://peoplestalker-318b4.web.app/' as base url.
+'23/12/2019 01:06:24' - 'Pass' : 1. Navigate to : 'https://peoplestalker-318b4.web.app/'
+'23/12/2019 01:06:26' - 'Pass' : 2. Wait for Exists 'MaximumPTag'
+------------------------------------------------------------
+'23/12/2019 01:06:26' - Overall Result: Pass
+'23/12/2019 01:06:26' - Duration: [0 min: 3 sec: 171 msec]
+------------------------------------------------------------
+'23/12/2019 01:06:27' - Test completed!
+</Message>
+              <ScreenRecordingResultPath type="null"></ScreenRecordingResultPath>
+              <ScreenRecordingResultError type="null"></ScreenRecordingResultError>
+              <ScreenRecordingResultCodec type="null"></ScreenRecordingResultCodec>
+              <ScreenRecordingResultSize type="number">0</ScreenRecordingResultSize>
+              <FailureException type="null"></FailureException>
+              <Result type="number">0</Result>
+              <TestId type="string">acaf0df6-4d13-4bfe-8272-a38fe4b9980f</TestId>
+              <TestName type="string">See maximum number of persons in room until now</TestName>
+              <IsRerun type="boolean">false</IsRerun>
+              <TestPath type="string">See maximum number of persons in room until now.tstest</TestPath>
+              <TestOwner type="string"></TestOwner>
+              <TestDescription type="string"></TestDescription>
+              <ProjectPath type="string"></ProjectPath>
+              <StepResults type="array">
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">See maximum number of persons in room until now</TestName>
+                    <TestPath type="string">See maximum number of persons in room until now.tstest</TestPath>
+                    <TestId type="string">acaf0df6-4d13-4bfe-8272-a38fe4b9980f</TestId>
+                    <TestStepIndex type="number">0</TestStepIndex>
+                    <StepDescription type="string">Navigate to : 'https://peoplestalker-318b4.web.app/'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">1</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1347723234</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">See maximum number of persons in room until now</TestName>
+                    <TestPath type="string">See maximum number of persons in room until now.tstest</TestPath>
+                    <TestId type="string">acaf0df6-4d13-4bfe-8272-a38fe4b9980f</TestId>
+                    <TestStepIndex type="number">1</TestStepIndex>
+                    <StepDescription type="string">Wait for Exists 'MaximumPTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">2</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">-898084789</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+              </StepResults>
+              <NotRunStepDescriptions type="array"></NotRunStepDescriptions>
+              <TotalPassedSteps type="number">2</TotalPassedSteps>
+              <ExecutingTestStepCount type="number">2</ExecutingTestStepCount>
+              <TotalNumberOfNotRunSteps type="number">0</TotalNumberOfNotRunSteps>
+              <IsDataDrivenResult type="boolean">false</IsDataDrivenResult>
+              <DataIterationResults type="array"></DataIterationResults>
+              <EndTime type="string">2019-12-23T01:06:26.9332609Z</EndTime>
+              <StartTime type="string">2019-12-23T01:06:23.7621949Z</StartTime>
+              <ProfilerResultsPath type="null"></ProfilerResultsPath>
+              <VersionGroupKey type="string">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+              <CommitedBy type="null"></CommitedBy>
+              <HasWarnings type="boolean">false</HasWarnings>
+            </__value>
+          </item>
+          <item type="object" __type="ArtOfTest.WebAii.Design.Execution.TestResult">
+            <__value type="object">
+              <Browser type="number">7</Browser>
+              <ExeType type="number">5</ExeType>
+              <SeparatorLineCharCount type="number">60</SeparatorLineCharCount>
+              <Message type="string">Overall Result: Pass
+------------------------------------------------------------
+'23/12/2019 01:06:27' - Executing test: 'See number of people in room', path: 'See number of people in room.tstest.'
+'23/12/2019 01:06:27' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2019.3.1030.0'.
+'23/12/2019 01:06:27' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'23/12/2019 01:06:30' - Using 'Chrome' version '79.0.3945.88' as default browser. 
+'23/12/2019 01:06:30' - Using 'https://peoplestalker-318b4.web.app/' as base url.
+'23/12/2019 01:06:30' - 'Pass' : 1. Navigate to : 'https://peoplestalker-318b4.web.app/'
+'23/12/2019 01:06:32' - 'Pass' : 2. Wait for Exists 'PeopleInPTag'
+------------------------------------------------------------
+'23/12/2019 01:06:32' - Overall Result: Pass
+'23/12/2019 01:06:32' - Duration: [0 min: 2 sec: 368 msec]
+------------------------------------------------------------
+'23/12/2019 01:06:33' - Test completed!
+</Message>
+              <ScreenRecordingResultPath type="null"></ScreenRecordingResultPath>
+              <ScreenRecordingResultError type="null"></ScreenRecordingResultError>
+              <ScreenRecordingResultCodec type="null"></ScreenRecordingResultCodec>
+              <ScreenRecordingResultSize type="number">0</ScreenRecordingResultSize>
+              <FailureException type="null"></FailureException>
+              <Result type="number">0</Result>
+              <TestId type="string">82853a85-cb33-4eb2-a5c6-45154550de5b</TestId>
+              <TestName type="string">See number of people in room</TestName>
+              <IsRerun type="boolean">false</IsRerun>
+              <TestPath type="string">See number of people in room.tstest</TestPath>
+              <TestOwner type="string"></TestOwner>
+              <TestDescription type="string"></TestDescription>
+              <ProjectPath type="string"></ProjectPath>
+              <StepResults type="array">
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">See number of people in room</TestName>
+                    <TestPath type="string">See number of people in room.tstest</TestPath>
+                    <TestId type="string">82853a85-cb33-4eb2-a5c6-45154550de5b</TestId>
+                    <TestStepIndex type="number">0</TestStepIndex>
+                    <StepDescription type="string">Navigate to : 'https://peoplestalker-318b4.web.app/'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">1</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1347723234</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">See number of people in room</TestName>
+                    <TestPath type="string">See number of people in room.tstest</TestPath>
+                    <TestId type="string">82853a85-cb33-4eb2-a5c6-45154550de5b</TestId>
+                    <TestStepIndex type="number">1</TestStepIndex>
+                    <StepDescription type="string">Wait for Exists 'PeopleInPTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">2</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">-898084789</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+              </StepResults>
+              <NotRunStepDescriptions type="array"></NotRunStepDescriptions>
+              <TotalPassedSteps type="number">2</TotalPassedSteps>
+              <ExecutingTestStepCount type="number">2</ExecutingTestStepCount>
+              <TotalNumberOfNotRunSteps type="number">0</TotalNumberOfNotRunSteps>
+              <IsDataDrivenResult type="boolean">false</IsDataDrivenResult>
+              <DataIterationResults type="array"></DataIterationResults>
+              <EndTime type="string">2019-12-23T01:06:32.7193668Z</EndTime>
+              <StartTime type="string">2019-12-23T01:06:30.3511037Z</StartTime>
+              <ProfilerResultsPath type="null"></ProfilerResultsPath>
+              <VersionGroupKey type="string">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+              <CommitedBy type="null"></CommitedBy>
+              <HasWarnings type="boolean">false</HasWarnings>
+            </__value>
+          </item>
+          <item type="object" __type="ArtOfTest.WebAii.Design.Execution.TestResult">
+            <__value type="object">
+              <Browser type="number">7</Browser>
+              <ExeType type="number">5</ExeType>
+              <SeparatorLineCharCount type="number">60</SeparatorLineCharCount>
+              <Message type="string">Overall Result: Pass
+------------------------------------------------------------
+'23/12/2019 01:06:33' - Executing test: 'See percentage of people in room', path: 'See percentage of people in room.tstest.'
+'23/12/2019 01:06:33' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2019.3.1030.0'.
+'23/12/2019 01:06:33' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'23/12/2019 01:06:35' - Using 'Chrome' version '79.0.3945.88' as default browser. 
+'23/12/2019 01:06:35' - Using 'https://peoplestalker-318b4.web.app/' as base url.
+'23/12/2019 01:06:36' - 'Pass' : 1. Navigate to : 'https://peoplestalker-318b4.web.app/'
+'23/12/2019 01:06:39' - 'Pass' : 2. Wait for Exists 'PercentageOfPTag'
+------------------------------------------------------------
+'23/12/2019 01:06:39' - Overall Result: Pass
+'23/12/2019 01:06:39' - Duration: [0 min: 3 sec: 199 msec]
+------------------------------------------------------------
+'23/12/2019 01:06:39' - Test completed!
+</Message>
+              <ScreenRecordingResultPath type="null"></ScreenRecordingResultPath>
+              <ScreenRecordingResultError type="null"></ScreenRecordingResultError>
+              <ScreenRecordingResultCodec type="null"></ScreenRecordingResultCodec>
+              <ScreenRecordingResultSize type="number">0</ScreenRecordingResultSize>
+              <FailureException type="null"></FailureException>
+              <Result type="number">0</Result>
+              <TestId type="string">35d1dfbc-f10b-418a-bb28-37b525ecf81d</TestId>
+              <TestName type="string">See percentage of people in room</TestName>
+              <IsRerun type="boolean">false</IsRerun>
+              <TestPath type="string">See percentage of people in room.tstest</TestPath>
+              <TestOwner type="string"></TestOwner>
+              <TestDescription type="string"></TestDescription>
+              <ProjectPath type="string"></ProjectPath>
+              <StepResults type="array">
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">See percentage of people in room</TestName>
+                    <TestPath type="string">See percentage of people in room.tstest</TestPath>
+                    <TestId type="string">35d1dfbc-f10b-418a-bb28-37b525ecf81d</TestId>
+                    <TestStepIndex type="number">0</TestStepIndex>
+                    <StepDescription type="string">Navigate to : 'https://peoplestalker-318b4.web.app/'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">1</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1347723234</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">See percentage of people in room</TestName>
+                    <TestPath type="string">See percentage of people in room.tstest</TestPath>
+                    <TestId type="string">35d1dfbc-f10b-418a-bb28-37b525ecf81d</TestId>
+                    <TestStepIndex type="number">1</TestStepIndex>
+                    <StepDescription type="string">Wait for Exists 'PercentageOfPTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">2</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">-898084789</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+              </StepResults>
+              <NotRunStepDescriptions type="array"></NotRunStepDescriptions>
+              <TotalPassedSteps type="number">2</TotalPassedSteps>
+              <ExecutingTestStepCount type="number">2</ExecutingTestStepCount>
+              <TotalNumberOfNotRunSteps type="number">0</TotalNumberOfNotRunSteps>
+              <IsDataDrivenResult type="boolean">false</IsDataDrivenResult>
+              <DataIterationResults type="array"></DataIterationResults>
+              <EndTime type="string">2019-12-23T01:06:39.0557378Z</EndTime>
+              <StartTime type="string">2019-12-23T01:06:35.856585Z</StartTime>
+              <ProfilerResultsPath type="null"></ProfilerResultsPath>
+              <VersionGroupKey type="string">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+              <CommitedBy type="null"></CommitedBy>
+              <HasWarnings type="boolean">false</HasWarnings>
+            </__value>
+          </item>
+          <item type="object" __type="ArtOfTest.WebAii.Design.Execution.TestResult">
+            <__value type="object">
+              <Browser type="number">7</Browser>
+              <ExeType type="number">5</ExeType>
+              <SeparatorLineCharCount type="number">60</SeparatorLineCharCount>
+              <Message type="string">Overall Result: Pass
+------------------------------------------------------------
+'23/12/2019 01:06:39' - Executing test: 'Test Login with invalid email', path: 'Test Login with invalid email.tstest.'
+'23/12/2019 01:06:39' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2019.3.1030.0'.
+'23/12/2019 01:06:39' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'23/12/2019 01:06:42' - Using 'Chrome' version '79.0.3945.88' as default browser. 
+'23/12/2019 01:06:42' - Using 'https://peoplestalker-318b4.web.app/' as base url.
+'23/12/2019 01:06:43' - 'Pass' : 1. Navigate to : 'https://peoplestalker-318b4.web.app/'
+'23/12/2019 01:06:43' - 'Pass' : 2. Click 'LoginLink'
+'23/12/2019 01:06:43' - 'Pass' : 3. Enter text 'adminoo@peoplestalker.pt' in 'LoginEmail'
+'23/12/2019 01:06:43' - 'Pass' : 4. Enter text 'passwade' in 'LoginPassword'
+'23/12/2019 01:06:43' - 'Pass' : 5. Click 'LoginButtonTag'
+'23/12/2019 01:06:44' - 'Pass' : 6. Wait for ExistsNot 'LoginButtonTag'
+------------------------------------------------------------
+'23/12/2019 01:06:44' - Overall Result: Pass
+'23/12/2019 01:06:44' - Duration: [0 min: 1 sec: 541 msec]
+------------------------------------------------------------
+'23/12/2019 01:06:44' - Test completed!
+</Message>
+              <ScreenRecordingResultPath type="null"></ScreenRecordingResultPath>
+              <ScreenRecordingResultError type="null"></ScreenRecordingResultError>
+              <ScreenRecordingResultCodec type="null"></ScreenRecordingResultCodec>
+              <ScreenRecordingResultSize type="number">0</ScreenRecordingResultSize>
+              <FailureException type="null"></FailureException>
+              <Result type="number">0</Result>
+              <TestId type="string">556e1743-2eaa-435f-9ffe-1b526e829fae</TestId>
+              <TestName type="string">Test Login with invalid email</TestName>
+              <IsRerun type="boolean">false</IsRerun>
+              <TestPath type="string">Test Login with invalid email.tstest</TestPath>
+              <TestOwner type="string"></TestOwner>
+              <TestDescription type="string"></TestDescription>
+              <ProjectPath type="string"></ProjectPath>
+              <StepResults type="array">
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid email</TestName>
+                    <TestPath type="string">Test Login with invalid email.tstest</TestPath>
+                    <TestId type="string">556e1743-2eaa-435f-9ffe-1b526e829fae</TestId>
+                    <TestStepIndex type="number">0</TestStepIndex>
+                    <StepDescription type="string">Navigate to : 'https://peoplestalker-318b4.web.app/'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">1</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1347723234</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid email</TestName>
+                    <TestPath type="string">Test Login with invalid email.tstest</TestPath>
+                    <TestId type="string">556e1743-2eaa-435f-9ffe-1b526e829fae</TestId>
+                    <TestStepIndex type="number">1</TestStepIndex>
+                    <StepDescription type="string">Click 'LoginLink'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">2</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960561</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid email</TestName>
+                    <TestPath type="string">Test Login with invalid email.tstest</TestPath>
+                    <TestId type="string">556e1743-2eaa-435f-9ffe-1b526e829fae</TestId>
+                    <TestStepIndex type="number">2</TestStepIndex>
+                    <StepDescription type="string">Enter text 'adminoo@peoplestalker.pt' in 'LoginEmail'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">3</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498605</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid email</TestName>
+                    <TestPath type="string">Test Login with invalid email.tstest</TestPath>
+                    <TestId type="string">556e1743-2eaa-435f-9ffe-1b526e829fae</TestId>
+                    <TestStepIndex type="number">3</TestStepIndex>
+                    <StepDescription type="string">Enter text 'passwade' in 'LoginPassword'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">4</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498606</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid email</TestName>
+                    <TestPath type="string">Test Login with invalid email.tstest</TestPath>
+                    <TestId type="string">556e1743-2eaa-435f-9ffe-1b526e829fae</TestId>
+                    <TestStepIndex type="number">4</TestStepIndex>
+                    <StepDescription type="string">Click 'LoginButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">5</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960564</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid email</TestName>
+                    <TestPath type="string">Test Login with invalid email.tstest</TestPath>
+                    <TestId type="string">556e1743-2eaa-435f-9ffe-1b526e829fae</TestId>
+                    <TestStepIndex type="number">5</TestStepIndex>
+                    <StepDescription type="string">Wait for ExistsNot 'LoginButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">6</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">-898084785</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+              </StepResults>
+              <NotRunStepDescriptions type="array"></NotRunStepDescriptions>
+              <TotalPassedSteps type="number">6</TotalPassedSteps>
+              <ExecutingTestStepCount type="number">6</ExecutingTestStepCount>
+              <TotalNumberOfNotRunSteps type="number">0</TotalNumberOfNotRunSteps>
+              <IsDataDrivenResult type="boolean">false</IsDataDrivenResult>
+              <DataIterationResults type="array"></DataIterationResults>
+              <EndTime type="string">2019-12-23T01:06:44.1715214Z</EndTime>
+              <StartTime type="string">2019-12-23T01:06:42.6301712Z</StartTime>
+              <ProfilerResultsPath type="null"></ProfilerResultsPath>
+              <VersionGroupKey type="string">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+              <CommitedBy type="null"></CommitedBy>
+              <HasWarnings type="boolean">false</HasWarnings>
+            </__value>
+          </item>
+          <item type="object" __type="ArtOfTest.WebAii.Design.Execution.TestResult">
+            <__value type="object">
+              <Browser type="number">7</Browser>
+              <ExeType type="number">5</ExeType>
+              <SeparatorLineCharCount type="number">60</SeparatorLineCharCount>
+              <Message type="string">Overall Result: Pass
+------------------------------------------------------------
+'23/12/2019 01:06:45' - Executing test: 'Test Login with invalid password', path: 'Test Login with invalid password.tstest.'
+'23/12/2019 01:06:45' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2019.3.1030.0'.
+'23/12/2019 01:06:45' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'23/12/2019 01:06:47' - Using 'Chrome' version '79.0.3945.88' as default browser. 
+'23/12/2019 01:06:47' - Using 'https://peoplestalker-318b4.web.app/' as base url.
+'23/12/2019 01:06:47' - 'Pass' : 1. Navigate to : 'https://peoplestalker-318b4.web.app/'
+'23/12/2019 01:06:47' - 'Pass' : 2. Click 'LoginLink'
+'23/12/2019 01:06:48' - 'Pass' : 3. Enter text 'admin@peoplestalker.pt' in 'LoginEmail'
+'23/12/2019 01:06:48' - 'Pass' : 4. Enter text 'password' in 'LoginPassword'
+'23/12/2019 01:06:48' - 'Pass' : 5. Click 'LoginButtonTag'
+'23/12/2019 01:06:48' - 'Pass' : 6. Wait for ExistsNot 'LoginButtonTag'
+------------------------------------------------------------
+'23/12/2019 01:06:48' - Overall Result: Pass
+'23/12/2019 01:06:48' - Duration: [0 min: 1 sec: 580 msec]
+------------------------------------------------------------
+'23/12/2019 01:06:49' - Test completed!
+</Message>
+              <ScreenRecordingResultPath type="null"></ScreenRecordingResultPath>
+              <ScreenRecordingResultError type="null"></ScreenRecordingResultError>
+              <ScreenRecordingResultCodec type="null"></ScreenRecordingResultCodec>
+              <ScreenRecordingResultSize type="number">0</ScreenRecordingResultSize>
+              <FailureException type="null"></FailureException>
+              <Result type="number">0</Result>
+              <TestId type="string">c7d32143-0e62-4268-8b47-191a84206591</TestId>
+              <TestName type="string">Test Login with invalid password</TestName>
+              <IsRerun type="boolean">false</IsRerun>
+              <TestPath type="string">Test Login with invalid password.tstest</TestPath>
+              <TestOwner type="string"></TestOwner>
+              <TestDescription type="string"></TestDescription>
+              <ProjectPath type="string"></ProjectPath>
+              <StepResults type="array">
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid password</TestName>
+                    <TestPath type="string">Test Login with invalid password.tstest</TestPath>
+                    <TestId type="string">c7d32143-0e62-4268-8b47-191a84206591</TestId>
+                    <TestStepIndex type="number">0</TestStepIndex>
+                    <StepDescription type="string">Navigate to : 'https://peoplestalker-318b4.web.app/'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">1</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1347723234</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid password</TestName>
+                    <TestPath type="string">Test Login with invalid password.tstest</TestPath>
+                    <TestId type="string">c7d32143-0e62-4268-8b47-191a84206591</TestId>
+                    <TestStepIndex type="number">1</TestStepIndex>
+                    <StepDescription type="string">Click 'LoginLink'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">2</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960561</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid password</TestName>
+                    <TestPath type="string">Test Login with invalid password.tstest</TestPath>
+                    <TestId type="string">c7d32143-0e62-4268-8b47-191a84206591</TestId>
+                    <TestStepIndex type="number">2</TestStepIndex>
+                    <StepDescription type="string">Enter text 'admin@peoplestalker.pt' in 'LoginEmail'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">3</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498605</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid password</TestName>
+                    <TestPath type="string">Test Login with invalid password.tstest</TestPath>
+                    <TestId type="string">c7d32143-0e62-4268-8b47-191a84206591</TestId>
+                    <TestStepIndex type="number">3</TestStepIndex>
+                    <StepDescription type="string">Enter text 'password' in 'LoginPassword'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">4</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498606</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid password</TestName>
+                    <TestPath type="string">Test Login with invalid password.tstest</TestPath>
+                    <TestId type="string">c7d32143-0e62-4268-8b47-191a84206591</TestId>
+                    <TestStepIndex type="number">4</TestStepIndex>
+                    <StepDescription type="string">Click 'LoginButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">5</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960564</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with invalid password</TestName>
+                    <TestPath type="string">Test Login with invalid password.tstest</TestPath>
+                    <TestId type="string">c7d32143-0e62-4268-8b47-191a84206591</TestId>
+                    <TestStepIndex type="number">5</TestStepIndex>
+                    <StepDescription type="string">Wait for ExistsNot 'LoginButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">6</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">-898084785</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+              </StepResults>
+              <NotRunStepDescriptions type="array"></NotRunStepDescriptions>
+              <TotalPassedSteps type="number">6</TotalPassedSteps>
+              <ExecutingTestStepCount type="number">6</ExecutingTestStepCount>
+              <TotalNumberOfNotRunSteps type="number">0</TotalNumberOfNotRunSteps>
+              <IsDataDrivenResult type="boolean">false</IsDataDrivenResult>
+              <DataIterationResults type="array"></DataIterationResults>
+              <EndTime type="string">2019-12-23T01:06:48.7153536Z</EndTime>
+              <StartTime type="string">2019-12-23T01:06:47.1347975Z</StartTime>
+              <ProfilerResultsPath type="null"></ProfilerResultsPath>
+              <VersionGroupKey type="string">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+              <CommitedBy type="null"></CommitedBy>
+              <HasWarnings type="boolean">false</HasWarnings>
+            </__value>
+          </item>
+          <item type="object" __type="ArtOfTest.WebAii.Design.Execution.TestResult">
+            <__value type="object">
+              <Browser type="number">7</Browser>
+              <ExeType type="number">5</ExeType>
+              <SeparatorLineCharCount type="number">60</SeparatorLineCharCount>
+              <Message type="string">Overall Result: Pass
+------------------------------------------------------------
+'23/12/2019 01:06:49' - Executing test: 'Test Login with valid credentials', path: 'Test Login with valid credentials.tstest.'
+'23/12/2019 01:06:49' - Using .Net Runtime version: '4.0.30319.42000' for test execution. Build version is '2019.3.1030.0'.
+'23/12/2019 01:06:49' - Starting execution....
+------------------------------------------------------------
+------------------------------------------------------------
+'23/12/2019 01:06:52' - Using 'Chrome' version '79.0.3945.88' as default browser. 
+'23/12/2019 01:06:52' - Using 'https://peoplestalker-318b4.web.app/' as base url.
+'23/12/2019 01:06:52' - 'Pass' : 1. Navigate to : 'https://peoplestalker-318b4.web.app/'
+'23/12/2019 01:06:53' - 'Pass' : 2. Click 'LoginLink'
+'23/12/2019 01:06:53' - 'Pass' : 3. Enter text 'admin@peoplestalker.pt' in 'LoginEmail'
+'23/12/2019 01:06:53' - 'Pass' : 4. Enter text 'passwade' in 'LoginPassword'
+'23/12/2019 01:06:53' - 'Pass' : 5. Click 'LoginButtonTag'
+'23/12/2019 01:07:25' - 'Pass' : 6. Wait for ExistsNot 'LoginButtonTag'
+------------------------------------------------------------
+'23/12/2019 01:07:25' - Overall Result: Pass
+'23/12/2019 01:07:25' - Duration: [0 min: 32 sec: 570 msec]
+------------------------------------------------------------
+'23/12/2019 01:07:25' - Test completed!
+</Message>
+              <ScreenRecordingResultPath type="null"></ScreenRecordingResultPath>
+              <ScreenRecordingResultError type="null"></ScreenRecordingResultError>
+              <ScreenRecordingResultCodec type="null"></ScreenRecordingResultCodec>
+              <ScreenRecordingResultSize type="number">0</ScreenRecordingResultSize>
+              <FailureException type="null"></FailureException>
+              <Result type="number">0</Result>
+              <TestId type="string">a626df74-22b0-4e54-9195-208f94495133</TestId>
+              <TestName type="string">Test Login with valid credentials</TestName>
+              <IsRerun type="boolean">false</IsRerun>
+              <TestPath type="string">Test Login with valid credentials.tstest</TestPath>
+              <TestOwner type="string"></TestOwner>
+              <TestDescription type="string"></TestDescription>
+              <ProjectPath type="string"></ProjectPath>
+              <StepResults type="array">
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with valid credentials</TestName>
+                    <TestPath type="string">Test Login with valid credentials.tstest</TestPath>
+                    <TestId type="string">a626df74-22b0-4e54-9195-208f94495133</TestId>
+                    <TestStepIndex type="number">0</TestStepIndex>
+                    <StepDescription type="string">Navigate to : 'https://peoplestalker-318b4.web.app/'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">1</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1347723234</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with valid credentials</TestName>
+                    <TestPath type="string">Test Login with valid credentials.tstest</TestPath>
+                    <TestId type="string">a626df74-22b0-4e54-9195-208f94495133</TestId>
+                    <TestStepIndex type="number">1</TestStepIndex>
+                    <StepDescription type="string">Click 'LoginLink'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">2</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960561</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with valid credentials</TestName>
+                    <TestPath type="string">Test Login with valid credentials.tstest</TestPath>
+                    <TestId type="string">a626df74-22b0-4e54-9195-208f94495133</TestId>
+                    <TestStepIndex type="number">2</TestStepIndex>
+                    <StepDescription type="string">Enter text 'admin@peoplestalker.pt' in 'LoginEmail'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">3</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498605</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with valid credentials</TestName>
+                    <TestPath type="string">Test Login with valid credentials.tstest</TestPath>
+                    <TestId type="string">a626df74-22b0-4e54-9195-208f94495133</TestId>
+                    <TestStepIndex type="number">3</TestStepIndex>
+                    <StepDescription type="string">Enter text 'passwade' in 'LoginPassword'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">4</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">1106498606</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with valid credentials</TestName>
+                    <TestPath type="string">Test Login with valid credentials.tstest</TestPath>
+                    <TestId type="string">a626df74-22b0-4e54-9195-208f94495133</TestId>
+                    <TestStepIndex type="number">4</TestStepIndex>
+                    <StepDescription type="string">Click 'LoginButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">5</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">2087960564</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+                <item type="object" __type="ArtOfTest.WebAii.Design.AutomationStepResult">
+                  <__value type="object">
+                    <TestName type="string">Test Login with valid credentials</TestName>
+                    <TestPath type="string">Test Login with valid credentials.tstest</TestPath>
+                    <TestId type="string">a626df74-22b0-4e54-9195-208f94495133</TestId>
+                    <TestStepIndex type="number">5</TestStepIndex>
+                    <StepDescription type="string">Wait for ExistsNot 'LoginButtonTag'</StepDescription>
+                    <Exception type="null"></Exception>
+                    <ResultType type="number">0</ResultType>
+                    <State type="null"></State>
+                    <Order type="number">6</Order>
+                    <LogMessageOnError type="string"></LogMessageOnError>
+                    <UserComment type="null"></UserComment>
+                    <HashCode type="number">-898084785</HashCode>
+                    <IsManual type="boolean">false</IsManual>
+                    <WasStepEnabled type="boolean">false</WasStepEnabled>
+                    <Warnings type="null"></Warnings>
+                  </__value>
+                </item>
+              </StepResults>
+              <NotRunStepDescriptions type="array"></NotRunStepDescriptions>
+              <TotalPassedSteps type="number">6</TotalPassedSteps>
+              <ExecutingTestStepCount type="number">6</ExecutingTestStepCount>
+              <TotalNumberOfNotRunSteps type="number">0</TotalNumberOfNotRunSteps>
+              <IsDataDrivenResult type="boolean">false</IsDataDrivenResult>
+              <DataIterationResults type="array"></DataIterationResults>
+              <EndTime type="string">2019-12-23T01:07:25.0901418Z</EndTime>
+              <StartTime type="string">2019-12-23T01:06:52.5192351Z</StartTime>
+              <ProfilerResultsPath type="null"></ProfilerResultsPath>
+              <VersionGroupKey type="string">00000000-0000-0000-0000-000000000000</VersionGroupKey>
+              <CommitedBy type="null"></CommitedBy>
+              <HasWarnings type="boolean">false</HasWarnings>
+            </__value>
+          </item>
+        </TestResults>
+        <FileName type="string">Test List 132215368459234207</FileName>
+        <Machine type="object" __type="ArtOfTest.WebAii.Design.Execution.Scheduling.Machine">
+          <__value type="object">
+            <Id type="string">00000000-0000-0000-0000-000000000000</Id>
+            <NetworkName type="string">DESKTOP-A2FPIR3</NetworkName>
+            <OperatingSystem type="string">Windows 10</OperatingSystem>
+            <InstalledBrowsers type="array">
+              <item type="object" __type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation">
+                <__value type="object">
+                  <Type type="number">1</Type>
+                  <Version type="string">9.11.18362.0</Version>
+                  <IsConfigured type="boolean">false</IsConfigured>
+                </__value>
+              </item>
+              <item type="object" __type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation">
+                <__value type="object">
+                  <Type type="number">2</Type>
+                  <Version type="string">71.0 (x64 pt-PT)</Version>
+                  <IsConfigured type="boolean">true</IsConfigured>
+                </__value>
+              </item>
+              <item type="object" __type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation">
+                <__value type="object">
+                  <Type type="number">7</Type>
+                  <Version type="string">79.0.3945.88</Version>
+                  <IsConfigured type="boolean">true</IsConfigured>
+                </__value>
+              </item>
+              <item type="object" __type="ArtOfTest.WebAii.Design.Execution.Scheduling.BrowserInformation">
+                <__value type="object">
+                  <Type type="number">9</Type>
+                  <Version type="string">44.18362.449.0</Version>
+                  <IsConfigured type="boolean">false</IsConfigured>
+                </__value>
+              </item>
+            </InstalledBrowsers>
+            <Status type="number">0</Status>
+            <ServiceUri type="null"></ServiceUri>
+            <DBState type="number">0</DBState>
+            <UserName type="string">Luis</UserName>
+          </__value>
+        </Machine>
+        <Messages type="null"></Messages>
+        <RunId type="string">437b757c-c70b-4e9f-8147-59f1f60a6247</RunId>
+        <Comment type="null"></Comment>
+        <TestListId type="string">bf3aaed3-c7d1-4a16-b91b-debdf03f4ef8</TestListId>
+        <IsManual type="boolean">false</IsManual>
+      </__value>
+    </item>
+  </Items>
+</root>

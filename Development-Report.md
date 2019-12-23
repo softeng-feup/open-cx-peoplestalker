@@ -146,6 +146,58 @@ As a logged in Admin, once can create a session where they define the speaker, d
 ![Website1](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/website1.png)
 
 
+## Test
+
+Our main objective when testing the webapp, was to focus on the more technical and less foolproof aspects of our code. That being said, we focused our testing in the login and authentication components, and in the display of the most important and fundamental information.
+After we identified our main acceptance tests, we used Telerik test studio in order to automatize these same tests. We did a total of 9 automated tests, the results of which can be partially seen below, or seen in full [here](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/result.xml).
+
+#Test Login with invalid email
+
+This test was used to check the response of the webapp if a wrong email address is given at the login.
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test1.jpg)
+
+#Test Login with invalid password
+
+This test was used to check the response of the webapp if a wrong password is given at the login.
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test2.jpg)
+
+#Test Login with valid credentials
+
+This test was used to check if the login works with valid credentials, and if the webapp redirects to the correct page after the sucessfull login
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test3.jpg)
+
+#Test the creation of a presentation with invalid credentials
+
+This test was used to check the behaviour of the webapp if invalid credentials are given at the moment of the creation of the presentation
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test4.jpg)
+
+#Test the creation of a presentation with valid credentials
+
+This test was used to check the behaviour of the webapp if valid credentials are given at the moment of the creation of the presentation, and if the webapp redirects to the correct page after the sucessfull creation of the presentations
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test5.jpg)
+
+#Test the display of the main attendance graph
+
+This test was used to check the display of the main chart, containing the number of people through a period of time
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test6.jpg)
+
+#Test the display of the maximum number of persons in room until now
+
+This test was used to check the display of the information of the maximum number of persons in room until a given moment
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test7.jpg)
+
+#Test the display of the number of people in room
+
+This test was used to check the display of the information of the number of people in the room in that precise moment
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test8.jpg)
+
+
+#Test the display of the percentage of people in room
+
+This test was used to check the display of the information of the percentage of people in the room in that precise moment, in relation to the maximum capacity of the room
+![PeopleStalker Sensor](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/acceptance_tests/test9.jpg)
+
+
 ## Configuration and change management
 Configuration and change management are key activities to control change to, and maintain the integrity of, a project’s artifacts (code, models, documents).
 
