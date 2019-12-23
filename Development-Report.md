@@ -13,6 +13,7 @@
   * [Physical architecture](#Physical-architecture)
   * [Prototype](#Prototype)
 * [Implementation](#Implementation)
+* [Test](#Test)
 * [Configuration and change management](#Configuration-and-change-management)
 * [Project management](#Project-management)
 
