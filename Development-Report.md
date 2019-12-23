@@ -76,7 +76,7 @@ Trello - https://trello.com/b/UpNIOA4Q/esof-people-stalker
 
 ### Mock Ups
 
-![Main Page Mockup](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/mockup.png)
+![Main Page Mockup](https://github.com/softeng-feup/open-cx-peoplestalker/blob/master/mockup.png width=100)
 
 ### Domain model
 
